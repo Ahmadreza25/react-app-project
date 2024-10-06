@@ -1,10 +1,13 @@
 import React from "react";
 import Header from "../components/Header/Header";
 
-const page = () => {
+const Page = () => {
     return(
         <div>
-            
+            <div>
+                <Header />
+            </div>
         </div>
     )
 }
+export default Page

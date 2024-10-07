@@ -1,0 +1,9 @@
+.div-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+.div-icon img{
+    width: 20px;
+    margin: 12px;
+}

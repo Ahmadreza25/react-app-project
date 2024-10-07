@@ -14,3 +14,41 @@
     height: 60px;
     margin-right: -110px;
 }
+
+@media (max-width:480px){
+    .div-main-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+    }
+    .header{
+        display: none;
+    }
+}
+.header2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(min-width:481px) and (max-width:768px){
+    .div-main-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 55px;
+    }
+    .header{
+        display: none;
+    }
+}
+@media(min-width:769px){
+    .header2{
+        display: none;
+    }
+}
+@media(min-width:1199px){
+    .header2{
+        display: none;
+    }
+}

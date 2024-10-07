@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../../images/img/logo.png"
+import HeaderBtn from "./Header-btn/Header-btn";
+import HeaderIcon from "./Header-icon/Header-icon";
 import "./Header.css"
 
 
@@ -11,11 +13,11 @@ const Header = () => {
                     <div>
                         <img src={logo} className="logo" alt="logo"/>
                     </div>
-                    <div className="">
-
+                    <div className="div-main-btn">
+                        <HeaderBtn />
                     </div>
-                    <div className="">
-
+                    <div className="div-main-icon">
+                        <HeaderIcon />
                     </div>
                 </header>
             </div>

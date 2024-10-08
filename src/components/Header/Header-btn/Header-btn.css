@@ -7,3 +7,8 @@
     width: 15px;
 
 }
+.div-btn button :hover{
+    color: rgb(84, 131, 13);
+    border-bottom: 3px solid rgb(84, 131, 13);
+    transition:0.2s ease;
+}

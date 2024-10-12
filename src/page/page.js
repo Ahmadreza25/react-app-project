@@ -2,10 +2,11 @@ import React from "react";
 import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
 import Styler from "../components/Styler/Styler";
+import Slider from "../components/Styler/Slider/Slider";
 const Page = () => {
     return(
         <div>
-            <div className="header-main">
+            <div>
                 <Header />
             </div>
             <div>
@@ -13,6 +14,9 @@ const Page = () => {
             </div>
             <div>
                 <Styler />
+            </div>
+            <div>
+                <Slider />
             </div>
         </div>
     )

@@ -3,6 +3,7 @@ import "./Styler.css"
 
 
 
+
 const Styler = () => {
     return(
         <div>
@@ -27,11 +28,6 @@ const Styler = () => {
                         <h4 className="title-3">
                             SHOP NOW
                         </h4>
-                    </div>
-                </div>
-                <div className="">
-                    <div className="div-slider-main">
-
                     </div>
                 </div>
             </div>

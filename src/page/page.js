@@ -4,6 +4,7 @@ import Banner from "../components/Banner/Banner";
 import Styler from "../components/Styler/Styler";
 import Slider from "../components/Styler/Slider/Slider";
 import Slider2 from "../components/Styler/Slider-2/Slider2";
+import Banner2 from "../components/Banner2/Banner2";
 const Page = () => {
     return(
         <div>
@@ -21,6 +22,9 @@ const Page = () => {
             </div>
             <div>
                 <Slider2 />
+            </div>
+            <div>
+                <Banner2 />
             </div>
         </div>
     )

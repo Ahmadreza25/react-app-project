@@ -56,12 +56,11 @@ const Slider = () => {
             <div className="div-main">
                 {
                   productData.map((item , index) => (
-                    <div>
                         <div className="div-cart-main" key={item.id}>
-                              <div className={`div-img div-img-${index + 1}`}>
-                                  <div>
-                                      <img src={item.image} className="img-cart"/>
-                                  </div>
+                              <div className={`div-img  div-img-${index + 1}`}>
+                                <div>
+                                    <img src={item.image} className="img-cart"/>
+                                </div>    
                               </div>
                               <div className="div-main-title">
                                       <p className="prich">
@@ -75,7 +74,6 @@ const Slider = () => {
                                     </h5>
                               </div>
                         </div>
-                      </div>  
                   ))
                 }
             </div>

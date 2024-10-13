@@ -39,13 +39,13 @@ const Slider2 = () => {
     return(
         <div>
             <div className="div-main-carts2">
-                <div className="">
+                <div className="div-title-cart2">
                     <h1>
                         Explore the range
                     </h1>
-                    <h3>
+                    <p>
                         Buy online
-                    </h3>
+                    </p>
                 </div>
                 <div>
                     <div className="div-main-cart2">

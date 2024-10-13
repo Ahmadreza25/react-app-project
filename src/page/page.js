@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
 import Styler from "../components/Styler/Styler";
 import Slider from "../components/Styler/Slider/Slider";
+import Slider2 from "../components/Styler/Slider-2/Slider2";
 const Page = () => {
     return(
         <div>
@@ -17,6 +18,9 @@ const Page = () => {
             </div>
             <div>
                 <Slider />
+            </div>
+            <div>
+                <Slider2 />
             </div>
         </div>
     )

@@ -5,6 +5,7 @@ import Styler from "../components/Styler/Styler";
 import Slider from "../components/Styler/Slider/Slider";
 import Slider2 from "../components/Styler/Slider-2/Slider2";
 import Banner2 from "../components/Banner2/Banner2";
+import Guide from "../components/Guide/Guide";
 const Page = () => {
     return(
         <div>
@@ -25,6 +26,9 @@ const Page = () => {
             </div>
             <div>
                 <Banner2 />
+            </div>
+            <div>
+                <Guide />
             </div>
         </div>
     )

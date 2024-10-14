@@ -9,16 +9,17 @@
     margin-top: 50px;
     margin-left: 150px;
 }
-.title-1{
+.title-1-h1{
     font-size: 40px;
-    font-weight: 800;
-    font-style: bold;
-    width: 500px;
+    font-weight: 700;
+    width: 600px;
 }
-.title-2{
-    width: 500px;
+.title-2-h2{
+    width: 650px;
     margin-top: 50px;
     color: rgb(49, 49, 49);
+    font-size: 15px;
+    font-weight: 500;
 }
 .title-3{
     width: 90px;

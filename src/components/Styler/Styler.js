@@ -10,12 +10,12 @@ const Styler = () => {
             <div className="div-main-slyder">
                 <div className="div-title-slid">
                     <div>
-                        <h1 className="title-1">
-                        SHOP OUR CONVENIENT CAPSULES
+                        <h1 className="title-1-h1">
+                            SHOP OUR CONVENIENT CAPSULES
                         </h1>
                     </div>
                     <div>
-                        <h5 className="title-2">
+                        <h5 className="title-2-h2">
                         Using decades of sourcing and roasting
                         experience, our coffee crew have recreated
                         the distinctive taste of Campos into a range

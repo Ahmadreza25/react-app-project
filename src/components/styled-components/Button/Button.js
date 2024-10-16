@@ -1,21 +1,20 @@
-import React from "react";
 import styled from "styled-components";
 
 
 
-const Button = styled.button`
+export const Button = styled.button`
     display: flex;
     align-items: center;
-    color:#000;
+    color:${(props) => props.color};
     width:${(props) => props.width};
     height:${(props) => props.hit};
     border:none;
     outline:none;
-    background-color:#fff ;
+    background-color:${(props) => props.bag};
     font-size:${(props => props.size)};
     font-weight:700;
     font-style:bold;
-    margin:7px
+    margin:7px;
+    margin-top:${(props => props.mtop)};
 `;
 
-export default Button

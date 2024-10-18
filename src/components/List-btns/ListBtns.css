@@ -1,0 +1,61 @@
+.div-list-btn{
+    content: "";
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -40px;
+}
+.div-list-btn2{
+    content: "";
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.div-list-btn3{
+    content: "";
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 160px;
+}
+.div-list-btns{
+    text-align: center;
+    width: 240px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+.div-list-btns2{
+    text-align: center;
+    width: 240px;
+    height: 230px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.div-list-btns3{
+    text-align: center;
+    width: 240px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.div-list-btns button{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    margin: 5px;
+}
+.div-list-btns2 button{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    margin: 5px;
+}
+.div-list-btn3 button{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    margin: 5px;
+}

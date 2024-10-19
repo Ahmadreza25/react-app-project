@@ -1,0 +1,83 @@
+.div-main-banner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+
+}
+.div-main-banner3{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.banner-1{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    box-shadow: 0px 2px 8px rgba(74, 73, 73, 0.3);
+    border-radius: 10px;
+    transition: box-shadow 0.6s ;
+}
+.banner-1:hover{
+    box-shadow: 0px 0px 10px rgba(73, 72, 72, 0.5);
+
+}
+
+.banner-1 img{
+    width: 500px;
+    height: 400px;
+    border-radius: 0px 10px 10px 0px;
+}
+.div-title-banner2{
+    margin-left: 40px;
+}
+.div-title-banner2 h1{
+    font-size: 40px
+}
+.div-title-banner2 h3{
+    border-bottom: 2px solid #000;
+    width: 175px;
+    padding-bottom: 5px;
+}
+.banner-2{
+    width: 50%;
+}
+.banner-3{
+    width: 50%;
+    padding-top: 200px;
+
+}
+.banner-2 img{
+    width: 500px;
+    height: 500px;
+}
+.banner-3 img{
+    width: 450px;
+    height: 300px;
+}
+
+
+.banner-2 h1{
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 700;
+}
+.banner-3 h1{
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.banner-2 h3{
+    border-bottom: 2px solid #000;
+    width: 100px;
+}
+.banner-3 h3{
+    margin-top: 80px;
+    border-bottom: 2px solid #000;
+    width: 100px;
+}

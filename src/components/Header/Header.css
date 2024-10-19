@@ -3,6 +3,8 @@
     height: 70px;
     background-color: #fff;
     border-bottom: 1px solid #c7bcbc; 
+    position: fixed;
+    z-index: 100;
 }
 .header{
     display: flex;

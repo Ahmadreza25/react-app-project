@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import { Button } from "../../styled-components/Button/Button";
 import { ListBtns1 ,ListBtns2, ListBtns3 } from "../../List-btns/ListBtns";
+import {Link} from "react-router-dom"
 import icon6 from "../../../images/icon/icon-6.png"
 import "./Header-btn.css"
 
@@ -13,11 +14,13 @@ const HeaderBtn = () => {
     return(
         <div>
             <div className="div-btn">
-                <div>
-                    <Button size="7px" bag="#fff">
-                        <h1>CAFE FINDER</h1>
-                    </Button>
-                </div>
+                    <div>
+                        <Link to="/finder" className="Link">
+                            <Button size="7px" bag="#fff">
+                                <h1>CAFE FINDER</h1>
+                            </Button>
+                        </Link>
+                    </div>
                 <div>
                     <Button size="7px" bag="#fff" onClick={() => setBtnList((item) => !item)}>
                         <h1>OUR STORY</h1>

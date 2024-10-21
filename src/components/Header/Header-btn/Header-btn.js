@@ -40,9 +40,11 @@ const HeaderBtn = () => {
                     </Button>
                 </div>
                 <div>
-                    <Button size="7px" bag="#fff">
-                        <h1>BREW GUIDES</h1>
-                    </Button>
+                    <Link to="/toguide" className="Link">
+                        <Button size="7px" bag="#fff">
+                            <h1>BREW GUIDES</h1>
+                        </Button>
+                    </Link>
                 </div>
                 <div>
                     <Button size="7px" bag="#fff">

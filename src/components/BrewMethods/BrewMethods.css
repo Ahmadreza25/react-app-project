@@ -46,22 +46,29 @@
     color: rgb(198, 174, 165);
 }
 .brew-method{
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-    margin: 10px;
+    background-color: #fff;
+    margin: 20px;
+    transition: box-shadow 0.5s;
 }
+.brew-method:hover{
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.6);
+}
+
 .div-toguides{
     padding-top: 80px;
 }
 .img-brew-method{
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 220px;
 }
 .mainimg-brew-method{
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 220px;
     overflow: hidden;
+    text-transform: uppercase;
 }
 .divimg-brew-methods{
     width: 100%;
@@ -78,6 +85,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 60px;
 }
 .div-toguides {
     width: 33.33%;
@@ -90,4 +98,69 @@
 
 .div-toguides:nth-last-child(-n+3) {
     width: 80%;
+}
+
+.main-search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.search-bar{
+    width: 80%;
+    height: 100px;
+    background-color: darkolivegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-item{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.title-item p{
+    font-weight: 700;
+    margin-top: 5px;
+    color: rgb(111, 114, 117);
+}
+.title-search{
+    font-weight: 700;
+    color: antiquewhite;
+    margin: 10px;
+}
+.input-search{
+    width: 200px;
+    background-color: darkolivegreen;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #8cb11d;
+    margin: 5px;
+    padding: 5px;
+    outline: none;
+    color: #fff;
+    font-weight: 700;
+}
+.input-search::placeholder{
+    color: #fff;
+    font-weight: 600;
+}
+.search-button{
+    width: 80px;
+    height: 40px;
+    font-weight: 600;
+    transition:background-color 0.8s ;
+    transition: color 0.8s;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+.search-button:hover{
+    background-color: #354603;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.title-item h1{
+    font-size: 20px;
+
 }

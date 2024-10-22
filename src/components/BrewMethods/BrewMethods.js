@@ -69,9 +69,9 @@ const BrewMethods = () => {
                 </div>
                 <div className="main-search-bar">
                     <div className="search-bar">
-                        <p className="title-search"></p>
-                        <input type="text" placeholder="" className="input-search"/>
-                        <button className="search-button"></button>
+                        <p className="title-search">I'M INTERESTED IN</p>
+                        <input type="text" placeholder="ALL ARTICLES" className="input-search"/>
+                        <button className="search-button">FIND</button>
                     </div>
                 </div>
                 <div>

@@ -1,0 +1,100 @@
+.news-container{
+    padding-top: 10px;
+}
+.div-news-banner{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news-banner{
+    margin-top: 120px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/img-news/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba( 0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: transform 8s ease;
+    overflow: hidden;
+}
+.news-banner:hover{
+    transform: scale(1.1);
+}
+.news-banner h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    width: 600px;
+    text-align: center;
+    transform: none;
+    transform: scale(none);
+}
+.news-banner h1:hover{
+    transform: scale(none);
+}
+.news-banner p{
+    color: #ad7878;
+    font-weight: 800;
+    margin-bottom: -20px;
+}
+.news-search{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.filter-area{
+    width: 85%;
+    height: 200px;
+    background-color: darkolivegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter-area p {
+    color: #cfdec6;
+    font-weight: 800;
+    margin: 10px;
+}
+.filter-area button {
+    width: 70px;
+    height: 40px;
+    font-weight: 700;
+    margin-top: -20px;
+    transition: background-color 0.8s;
+    transition: color 0.8s;
+}
+.filter-area button:hover{
+    background-color: #425409;
+    color: #fff;
+    border: none;
+}
+.filter-area input {
+    width: 200px;
+    background-color: darkolivegreen;
+    outline: none;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    border-bottom: 2px solid #579234;
+    margin: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+.filter-area input::placeholder{
+    color: #fff;
+    font-weight: 700;
+}

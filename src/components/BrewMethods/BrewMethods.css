@@ -87,6 +87,11 @@
     justify-content: center;
     margin-top: 60px;
 }
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .div-toguides {
     width: 33.33%;
     box-sizing: border-box;

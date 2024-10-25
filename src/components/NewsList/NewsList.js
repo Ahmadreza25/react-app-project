@@ -121,8 +121,35 @@ const NewsList = () => {
                         </button>
                     </div>
                 </div>
-                <div className="">
-
+                <div className="main-content">
+                    <div className="div-main-content">
+                        {
+                            productData.map((item) => (
+                                <div className="main-article-list">
+                                    <div className="article-list">
+                                        <div className="div-content-image">
+                                            <div className="news-thumbnail">
+                                                <img src={item.img} className="news-thumbnail-img"/>
+                                            </div>
+                                        </div>
+                                            <div className="div-title-news">
+                                            <h1>
+                                                {item.title}
+                                            </h1>
+                                            <p>
+                                                {item.explanation}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))
+                        }
+                    </div>
+                </div>
+                <div className="div-btn-primary">
+                    <button className="btn-primary">
+                        LOAD MORE
+                    </button>
                 </div>
             </div>
         </div>

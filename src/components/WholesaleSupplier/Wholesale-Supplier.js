@@ -5,7 +5,6 @@ import img3 from "../../images/wholesale-images/img-3.jpg"
 import image1 from "../../images/wholesale-images/img1.jpg"
 import image2 from "../../images/wholesale-images/img2.jpg"
 import image3 from "../../images/wholesale-images/img3.jpg"
-import { DataWholesale } from "../../data";
 import "./Wholesale-Supplier.css"
 
 
@@ -75,21 +74,102 @@ const WholesaleSupplier = () => {
                     </div>
                 </div>
                 <div className="div-form-container">
-                    <h1></h1>
+                    <p className="p1">
+                    Partnership
+                    </p>
                     <div className="form-container">
                         <div className="div-form-input">
                             <form className="form-control">
-                                {
-                                    DataWholesale.map((item,index) =>(
-                                        <div className="item-container" key={index}>
-                                            <div className="input-group">
-                                                <p>{item.text}</p>
-                                                <input type="text"/>
-                                            </div>
-                                        </div>
-                                    ))
-                                }
+                                <div className="input-column">
+                                    <div className="input-field">
+                                        <p>Name*</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>Phone*</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>Business type*</p>
+                                        <input type="text" placeholder="Please select"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>Business address*</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>Postcode*</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>Facebook</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>Website</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>Is this an existing business?*</p>
+                                        <input type="text" placeholder="Please select"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>Years of industry experience*</p>
+                                        <input type="text"/>
+                                    </div>
+                                </div>
+                                <div className="input-wrapper">
+                                    <div className="input-field">
+                                        <p>Last Name*</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>Email*</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>Business name*</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>State*</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>ABN*</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>Instagram</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>Role</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>Trading days and hours?*</p>
+                                        <input type="text"/>
+                                    </div>
+                                    <div className="input-field">
+                                        <p>What is your weekly coffee usage (KG)?*</p>
+                                        <input type="text"/>
+                                    </div>
+                                </div>
                             </form>
+                            <div className="div-add-main">
+                                <div>
+                                    <p>
+                                    Additional information about your cafe or business*
+                                    </p>
+                                    <textarea></textarea>
+                                </div>
+                                <div className="div-register-interest-btn">
+                                    <button className="register-interest-btn">
+                                        REGISTER INTEREST
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -116,6 +196,11 @@ const WholesaleSupplier = () => {
                             <p>Little Byrd, VIC</p>  
                         </div>
                     </div>
+                </div>
+                <div className="divView-more-btn">
+                    <button className="view-more-btn">
+                        VIEW MORE
+                    </button>
                 </div>
             </div>
         </div>

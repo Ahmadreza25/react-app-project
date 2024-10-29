@@ -59,43 +59,6 @@
     font-size: 15px;
     font-weight: 400;
 }
-.form-control{
-    width: 33.33%;
-    box-sizing: border-box;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.item-container{
-    margin: -20px;
-    margin-top:0px;
-}
-.form-control:nth-last-child(-n+2) {
-    width: 60%;
-}
-.input-group input{
-    width: 330px;
-    height: 35px;
-    border:1px solid #cfc7c7 ;
-    border-radius: 5px;
-    margin: 40px;
-}
-.input-group p {
-    margin-left: 40px;
-    margin-bottom: -35px;
-}
-.div-form-input{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.form-control{
-    width: 900px;
-    height: 1500px;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-}
 .case-studies-section{
     display: flex;
     align-items: center;
@@ -163,4 +126,71 @@
 .case-item:hover{
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
     margin-top: -10px;
+}
+.divView-more-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.view-more-btn{
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+.div-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.p1{
+    margin-left: -660px;
+    margin-bottom: 50px;
+    font-size: 23px;
+    font-weight: 800;
+}
+.input-field input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.form-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-container{
+    width: 800px;
+    height: 1500px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+.input-field{
+    margin: 30px;
+}
+.div-add-main{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.register-interest-btn{
+    width: 240px;
+    height: 55px;
+    margin-top: 40px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #000;
+    outline: none;
+    border: none;
+    background-color: rgb(138, 173, 79);
+    transition: background-color 0.8s;
+}
+.register-interest-btn:hover{
+    background-color: darkolivegreen;
 }

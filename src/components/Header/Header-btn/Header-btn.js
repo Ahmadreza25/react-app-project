@@ -54,9 +54,11 @@ const HeaderBtn = () => {
                     </Link>
                 </div>
                 <div>
-                    <Button size="7px" bag="#fff">
-                        <h1>WHOLESALE</h1>
-                    </Button>
+                    <Link to="./wholesale" className="Link">
+                        <Button size="7px" bag="#fff">
+                            <h1>WHOLESALE</h1>
+                        </Button>
+                    </Link>
                 </div>
             </div>
             {

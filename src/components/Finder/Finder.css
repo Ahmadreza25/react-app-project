@@ -38,9 +38,9 @@
     justify-content: center;
 }
 .div-serch{
-    width: 85%;
-    height: 130px;
-    background-color: darkolivegreen;
+    width: 80%;
+    height: 120px;
+    background-color:#898f4b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,12 +52,12 @@
 }
 .div-input-serch input{
     width: 200px;
-    background-color: darkolivegreen;
+    background-color:#898f4b;
     color: #fff;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #8b9b4b;
+    border-bottom: 1px solid #cfe86f;
     margin: 5px;
     height: 30px;
     outline: none;
@@ -67,7 +67,7 @@
     font-size: 15px;
 }
 .div-input-serch button{
-    width: 100px;
+    width: 80px;
     height: 40px;
     margin: 20px;
     font-weight: 700;

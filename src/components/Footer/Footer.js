@@ -22,22 +22,22 @@ const Footer = () => {
                             </div>
                             <div className="line"></div>
                             <div className="div-buttons">
-                                <Button color="#fff" bag="#556b2f" size="17px" mtop="20px">
+                                <Button color="#fff" bag="#898f4b" size="17px" mtop="20px">
                                     Facebook
                                 </Button>
-                                <Button  color="#fff" bag="#556b2f" size="17px" mtop="20px">
+                                <Button  color="#fff" bag="#898f4b" size="17px" mtop="20px">
                                     Instagram
                                 </Button>
-                                <Button  color="#fff" bag="#556b2f" size="17px" mtop="20px">
+                                <Button  color="#fff" bag="#898f4b" size="17px" mtop="20px">
                                     Youtube
                                 </Button>
-                                <Button  color="#fff" bag="#556b2f" size="17px" mtop="20px">
+                                <Button  color="#fff" bag="#898f4b" size="17px" mtop="20px">
                                     Twitter
                                 </Button>
-                                <Button  color="#fff" bag="#556b2f" size="17px" mtop="20px">
+                                <Button  color="#fff" bag="#898f4b" size="17px" mtop="20px">
                                     LinkedIn
                                 </Button>
-                                <Button  color="#fff" bag="#556b2f" size="17px" mtop="20px">
+                                <Button  color="#fff" bag="#898f4b" size="17px" mtop="20px">
                                     Podcasts
                                 </Button>
                             </div>
@@ -48,22 +48,22 @@ const Footer = () => {
                             </div>
                             <div className="line"></div>
                             <div  className="div-buttons">
-                                <Button color="#fff" bag="#556b2f" size="17px" mtop="20px">
+                                <Button color="#fff" bag="#898f4b" size="17px" mtop="20px">
                                     FAQ
                                 </Button>
-                                <Button color="#fff" bag="#556b2f" size="17px" mtop="20px" width="200px">
+                                <Button color="#fff" bag="#898f4b" size="17px" mtop="20px" width="200px">
                                     Delivery & Shipping Information
                                 </Button>
-                                <Button color="#fff" bag="#556b2f" size="17px" mtop="20px">
+                                <Button color="#fff" bag="#898f4b" size="17px" mtop="20px">
                                     Wholesale
                                 </Button>
-                                <Button color="#fff" bag="#556b2f" size="17px" mtop="20px">
+                                <Button color="#fff" bag="#898f4b" size="17px" mtop="20px">
                                     Careers
                                 </Button>
-                                <Button color="#fff" bag="#556b2f" size="17px" mtop="20px">
+                                <Button color="#fff" bag="#898f4b" size="17px" mtop="20px">
                                     Contact
                                 </Button>
-                                <Button color="#fff" bag="#556b2f" size="17px" mtop="20px">
+                                <Button color="#fff" bag="#898f4b" size="17px" mtop="20px">
                                     Competition Winners
                                 </Button>
                             </div>
@@ -74,10 +74,10 @@ const Footer = () => {
                             </div>
                             <div className="line"></div>
                             <div  className="div-buttons">
-                                <Button color="#fff" bag="#556b2f" size="17px" mtop="20px">
+                                <Button color="#fff" bag="#898f4b" size="17px" mtop="20px">
                                     My Account
                                 </Button>
-                                <Button color="#fff" bag="#556b2f" size="17px" mtop="20px">
+                                <Button color="#fff" bag="#898f4b" size="17px" mtop="20px">
                                     Cart
                                 </Button>
                             </div>

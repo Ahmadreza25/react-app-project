@@ -54,9 +54,9 @@
     margin-top: 50px;
 }
 .filter-area{
-    width: 85%;
-    height: 200px;
-    background-color: darkolivegreen;
+    width: 80%;
+    height: 120px;
+    background-color:#898f4b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +81,7 @@
 }
 .filter-area input {
     width: 200px;
-    background-color: darkolivegreen;
+    background-color:#898f4b;
     outline: none;
     border-top: none;
     border-left:none ;

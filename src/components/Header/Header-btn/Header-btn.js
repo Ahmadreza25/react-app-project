@@ -28,6 +28,15 @@ const HeaderBtn = () => {
                     </Button>
                 </div>
                 <div>
+                    <Link to="/merchandise" className="Link">
+                        <Button size="7px" bag="#fff">
+                            <h1>
+                                Christmas 2024
+                            </h1>
+                        </Button>
+                    </Link>
+                </div>
+                <div>
                     <Button size="7px" bag="#fff" onClick={() => setBtnList2((item) => !item)}>
                         <h1>SHOP</h1>
                         <img src={icon6} />

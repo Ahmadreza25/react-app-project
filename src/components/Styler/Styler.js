@@ -1,4 +1,5 @@
 import React  from "react";
+import { Link } from "react-router-dom";
 import "./Styler.css"
 
 
@@ -25,9 +26,11 @@ const Styler = () => {
                         aroma of our coffees to ensure a superior taste, 
                         every time.
                         </h5>
-                        <h4 className="title-3">
-                            SHOP NOW
-                        </h4>
+                        <Link to="/merchandise" className="link">
+                            <h4 className="title-3">
+                                SHOP NOW
+                            </h4>
+                        </Link>
                     </div>
                 </div>
             </div>

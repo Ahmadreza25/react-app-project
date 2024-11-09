@@ -60,9 +60,11 @@ const Slider3 = () => {
                     <h5>
                         All the essentials designed to withstand the bustling home barista environment.
                     </h5>
-                    <p>
-                        Coffee Equipment
-                    </p>
+                    <Link to="/coffeetools" className="link">
+                        <p>
+                            Coffee Equipment
+                        </p>
+                    </Link>
                 </div>
                     <div className="div-main-carts3">
                         {

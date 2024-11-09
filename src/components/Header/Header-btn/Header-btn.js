@@ -31,7 +31,7 @@ const HeaderBtn = () => {
                     <Link to="/merchandise" className="Link">
                         <Button size="7px" bag="#fff">
                             <h1>
-                                Christmas 2024
+                                CHRISTMAS 2024
                             </h1>
                         </Button>
                     </Link>

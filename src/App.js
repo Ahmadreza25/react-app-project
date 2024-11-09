@@ -9,6 +9,7 @@ import WholesaleSupplier from "./components/WholesaleSupplier/Wholesale-Supplier
 import SubscribeNow from "./components/SubscribeNow/SubscribeNow";
 import CareerPath from "./components/CareerPath/CareerPath";
 import Merchandise from "./components/Merchandise/Merchandise";
+import CoffeeTools from "./components/CoffeeTools/CoffeeTools";
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 
 
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/subscridenow" element={<SubscribeNow />}/>
         <Route path="/careerpath" element={<CareerPath />} />
         <Route path="/merchandise" element={<Merchandise />}/>
+        <Route path="/coffeetools" element={<CoffeeTools/>} />
       </Routes>
       <Footer />
     </Router>

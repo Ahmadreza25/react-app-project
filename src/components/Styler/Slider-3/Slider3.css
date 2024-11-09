@@ -55,7 +55,7 @@
     transition: color 0.8s;
 }
 .title-hiring b:hover {
-    color: rgb(88, 131, 7);
+    color: #588307;
 }
 .div-img-hiring{
     width: 500px;
@@ -125,6 +125,10 @@
     font-weight: 700;
     width: 140px;
     border-bottom:1px solid #000 ;
+    transition: color 0.8s;
+}
+.div-explanation p:hover{
+    color:#898f4b;
 }
 .link {
     text-decoration: none;

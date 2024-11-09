@@ -42,6 +42,10 @@
     outline: none;
     border: none;
     background-color: rgb(208, 209, 209);
+    transition: background-color 0.5s;
+}
+.btn__filters:hover{
+    background-color: #acabab;
 }
 .btn__filters img {
     padding-left: 30px;
@@ -52,6 +56,10 @@
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     margin: 20px;
     border-radius: 10px;
+    transition: box-shadow 0.8s;
+}
+.div-items:hover{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 }
 .div-main__img img{
     width:200px ;

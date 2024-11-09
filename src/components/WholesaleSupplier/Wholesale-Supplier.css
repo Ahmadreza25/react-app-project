@@ -48,7 +48,7 @@
 .item-info p{
     font-size: 15px;
     font-weight: 700;
-    color:rgb(158, 156, 11);
+    color:#898f4b;
 }
 .item-info h1{
     font-size: 20px;
@@ -75,7 +75,7 @@
 .div-section-title p{
     font-size: 22px;
     font-weight: 700;
-    color: rgb(158, 156, 11);
+    color:rgb(137, 143, 75);
 }
 .div-section-title h1 {
     font-size: 40px;
@@ -107,13 +107,13 @@
     width: 100px;
     height: 7px;
     border-radius: 5px;
-    background-color:rgb(158, 156, 11);
+    background-color:#898f4b;
 }
 .line-break{
     width: 30px;
     height: 4px;
     border-radius: 5px;
-    background-color: rgb(158, 156, 11);
+    background-color:#898f4b;
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -137,7 +137,7 @@
     width: 150px;
     height: 60px;
     border-radius: 5px;
-    background-color: darkolivegreen;
+    background-color:#898f4b;
     color: black;
     font-weight: 700;
     font-size: 15px;
@@ -188,9 +188,9 @@
     color: #000;
     outline: none;
     border: none;
-    background-color: rgb(138, 173, 79);
+    background-color:#898f4b;
     transition: background-color 0.8s;
 }
 .register-interest-btn:hover{
-    background-color: darkolivegreen;
+    background-color:#898f4b;
 }

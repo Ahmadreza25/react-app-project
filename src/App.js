@@ -10,6 +10,7 @@ import SubscribeNow from "./components/SubscribeNow/SubscribeNow";
 import CareerPath from "./components/CareerPath/CareerPath";
 import Merchandise from "./components/Merchandise/Merchandise";
 import CoffeeTools from "./components/CoffeeTools/CoffeeTools";
+import ProductRange from "./components/ProductRange/ProductRange";
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 
 
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/careerpath" element={<CareerPath />} />
         <Route path="/merchandise" element={<Merchandise />}/>
         <Route path="/coffeetools" element={<CoffeeTools/>} />
+        <Route path="/productrange" element={<ProductRange />}/>
       </Routes>
       <Footer />
     </Router>

@@ -2,7 +2,7 @@ import React from "react";
 import img1 from "../../images/subscribenow-images/img-1.png"
 import icon1 from "../../images/subscribenow-images/icon1.png"
 import icon2 from "../../images/subscribenow-images/icon2.png"
-import { DataSubscribeNow } from "../../data";
+import { DataSubscribeNow } from "../../data/DataSubscribeNow";
 import "./SubscribeNow.css"
 const SubscribeNow = () => {
     return(

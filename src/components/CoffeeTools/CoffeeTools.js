@@ -1,7 +1,7 @@
 import React from "react";
 import icon1 from "../../images/img-merchandise/icon-1.png"
 import icon2 from "../../images/img-merchandise/icon-2.png"
-import {DataCoffeetools} from "../../data"
+import { DataCoffeetools } from "../../data/DataCoffeetools";
 import "./CoffeeTools.css"
 
 

@@ -1,5 +1,5 @@
 import React from "react";
-import {DataMerchandise} from "../../data"
+import { DataMerchandise } from "../../data/DataMerchandise";
 import icon1 from "../../images/img-merchandise/icon-1.png"
 import icon2 from "../../images/img-merchandise/icon-2.png"
 import "./Merchandise.css"

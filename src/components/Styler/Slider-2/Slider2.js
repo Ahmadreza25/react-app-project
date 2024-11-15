@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import img1 from "../../../images/img-cart-2/img-1.png"
 import img2 from "../../../images/img-cart-2/img-2.png"
 import img3 from "../../../images/img-cart-2/img-3.png"
@@ -43,9 +44,11 @@ const Slider2 = () => {
                     <h1>
                         Explore the range
                     </h1>
-                    <p>
-                        Buy online
-                    </p>
+                    <Link to="/productrange" className="link">
+                        <p>
+                            Buy online
+                        </p>
+                    </Link>
                 </div>
                 <div>
                     <div className="div-main-cart2">

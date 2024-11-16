@@ -6,7 +6,7 @@ import img3 from "../../../images/img-cart-3/img3.png"
 import img4 from "../../../images/img-cart-3/img4.png"
 import img5 from "../../../images/img-cart-3/img5.png"
 import img6 from "../../../images/img-cart-3/img6.png"
-import "./Slider3.css"
+import "./CoffeeEquipment.css"
 
 
 
@@ -49,7 +49,7 @@ const productData = [
 ]
 
 
-const Slider3 = () => {
+const CoffeeEquipment = () => {
     return(
         <div>
             <div className="mian-div-cart3">
@@ -109,4 +109,4 @@ const Slider3 = () => {
 }
 
 
-export default Slider3
+export default CoffeeEquipment

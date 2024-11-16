@@ -1,12 +1,11 @@
 import React from "react";
 import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
-import Styler from "../components/Styler/Styler";
-import Slider from "../components/Styler/Slider/Slider";
-import Slider2 from "../components/Styler/Slider-2/Slider2";
+import ProductExplorer from "../components/Styler/ProductExplorer/ProductExplorer";
+import RangeMapper from "../components/Styler/RangeMapper/RangeMapper"
 import Banner2 from "../components/Banner2/Banner2";
 import Guide from "../components/Guide/Guide";
-import Slider3 from "../components/Styler/Slider-3/Slider3";
+import CoffeeEquipment from "../components/Styler/CoffeeEquipment/CoffeeEquipment"
 const Page = () => {
     return(
         <div>
@@ -17,13 +16,10 @@ const Page = () => {
                 <Banner />
             </div>
             <div>
-                <Styler />
+                <ProductExplorer />
             </div>
             <div>
-                <Slider />
-            </div>
-            <div>
-                <Slider2 />
+                <RangeMapper />
             </div>
             <div>
                 <Banner2 />
@@ -32,7 +28,7 @@ const Page = () => {
                 <Guide />
             </div>
             <div>
-                <Slider3 />
+                <CoffeeEquipment />
             </div>
         </div>
     )

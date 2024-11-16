@@ -4,7 +4,7 @@ import img2 from "../../../images/img-cart/img2.png"
 import img3 from "../../../images/img-cart/img3.png"
 import img4 from "../../../images/img-cart/img4.png"
 import img5 from "../../../images/img-cart/img5.png"
-import "./Slider.css"
+import "./ProductExplorer.css"
 
 
 
@@ -48,9 +48,7 @@ const productData = [
 
 
 
-const Slider = () => {
-
-
+const ProductExplorer = () => {
     return(
         <div>
             <div className="div-main">
@@ -81,5 +79,5 @@ const Slider = () => {
     )
 }
 
-export default Slider
+export default ProductExplorer
 

@@ -25,4 +25,12 @@
     width: 90px;
     font-weight: 700;
     border-bottom: 1px solid #000;
+    transition: color 0.8s;
+}
+.title-3:hover{
+    color:#898f4b;
+}
+.link{
+    text-decoration: none;
+    color: #000;
 }

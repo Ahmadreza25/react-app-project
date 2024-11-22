@@ -28,6 +28,15 @@ const HeaderBtn = () => {
                     </Button>
                 </div>
                 <div>
+                    <Link to="/merchandise" className="Link">
+                        <Button size="7px" bag="#fff">
+                            <h1>
+                                CHRISTMAS 2024
+                            </h1>
+                        </Button>
+                    </Link>
+                </div>
+                <div>
                     <Button size="7px" bag="#fff" onClick={() => setBtnList2((item) => !item)}>
                         <h1>SHOP</h1>
                         <img src={icon6} />
@@ -40,19 +49,25 @@ const HeaderBtn = () => {
                     </Button>
                 </div>
                 <div>
-                    <Button size="7px" bag="#fff">
-                        <h1>BREW GUIDES</h1>
-                    </Button>
+                    <Link to="/toguide" className="Link">
+                        <Button size="7px" bag="#fff">
+                            <h1>BREW GUIDES</h1>
+                        </Button>
+                    </Link>
                 </div>
                 <div>
-                    <Button size="7px" bag="#fff">
-                        <h1>NEWS</h1>
-                    </Button>
+                    <Link to="/neweList" className="Link">
+                        <Button size="7px" bag="#fff">
+                            <h1>NEWS</h1>
+                        </Button>
+                    </Link>
                 </div>
                 <div>
-                    <Button size="7px" bag="#fff">
-                        <h1>WHOLESALE</h1>
-                    </Button>
+                    <Link to="./wholesale" className="Link">
+                        <Button size="7px" bag="#fff">
+                            <h1>WHOLESALE</h1>
+                        </Button>
+                    </Link>
                 </div>
             </div>
             {

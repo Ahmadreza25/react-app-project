@@ -73,11 +73,33 @@
 }
 
 .banner-2 h3{
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
     width: 100px;
+    color: #000;
+    transition:color 0.5s ;
+}
+.banner-2 h3:hover{
+    color: rgb(129, 171, 57);
 }
 .banner-3 h3{
     margin-top: 80px;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
     width: 100px;
+    color: #000;
+    transition:color 0.5s ;
+}
+.banner-3 h3:hover {
+    color: rgb(129, 171, 57);
+}
+.link{
+    text-decoration: none;
+}
+.banner-1 h3 {
+    color: #000;
+    transition: border-color 0.2s;
+    transition: color 0.5s;
+}
+.banner-1 h3:hover {
+    color: rgb(129, 171, 57);
+    border-color: rgb(129, 171, 57);
 }

@@ -1,7 +1,7 @@
 .div-main-footer{
     width: 100%;
     height: 700px;
-    background-color: #556b2f;
+    background-color:rgb(137, 143, 75);
     margin-top: 150px;
 }
 .div-footer{
@@ -18,8 +18,9 @@
 .div-btn-footer{
     width: 180px;
     height: 400px;
-    margin: 20px;
+    margin: 30px;
     text-transform: uppercase; 
+    
 }
 .div-btn-footer1{
     width: 400px;

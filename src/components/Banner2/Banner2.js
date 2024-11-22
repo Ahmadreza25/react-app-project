@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../../images/img-banner/img-banner1.jpg"
 import img2 from "../../images/img-banner/img-banner2.png"
 import img3 from "../../images/img-banner/img-banner3.png"
+import { Link } from "react-router-dom";
 
 
 import "./Banner2.css"
@@ -17,9 +18,11 @@ const Banner2 = () => {
                         <h1>
                             Get a cup of Campos coffee near you
                         </h1>
-                        <h3>
-                            Find a Campos Café
-                        </h3>
+                        <Link to="/finder" className="link">
+                            <h3>
+                                Find a Campos Café
+                            </h3>
+                        </Link>
                     </div>            
                     <div>
                         <img src={img1}/>
@@ -33,9 +36,11 @@ const Banner2 = () => {
                         <h1>
                         Sign up to a subscription today
                         </h1>
-                        <h3>
-                        Learn more
-                        </h3>
+                        <Link to="/subscridenow" className="link">
+                            <h3>
+                            Learn more
+                            </h3>
+                        </Link>
                     </div>
                     <div className="banner-3">
                         <div>
@@ -44,9 +49,11 @@ const Banner2 = () => {
                         <h1>
                         Become a Campos Partner
                         </h1>
-                        <h3>
-                        Learn more
-                        </h3>
+                        <Link to="/wholesale" className="link">
+                            <h3>
+                            Learn more
+                            </h3>
+                        </Link>
                     </div>
                 </div>
             </div>

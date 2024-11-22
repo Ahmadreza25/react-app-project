@@ -1,0 +1,241 @@
+.product-range-container{
+    padding-top: 100px;
+    background-color: #fcfcfc;
+}
+.products-list:nth-last-child(-n+4){
+    width: 100%;
+}
+.products-list{
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.filters-header__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-products-list{
+    padding-top:100px ;
+}
+.filters-header__options{
+    width: 1100px;
+    height: 100px;
+    border-bottom: 1px solid #7f7b7b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter-button img{
+    width: 30px;
+}
+.filter-button{
+    width: 170px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(208, 209, 209);
+    transition: background-color 0.5s;
+}
+.filter-button:hover{
+    background-color: #acabab;
+}
+.filter-button img {
+    padding-left: 30px;
+}
+.filters-header__sort{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filters-header__sort img{
+    width: 20px;
+}
+.sotr__filters{
+    display: flex;
+    align-items: center;
+}
+.sotr__filters b{
+    margin-right: 50px;
+}
+.product-item{
+    width: 300px;
+    height: 450px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: #fff;
+    transition:margin-top 0.8s,box-shadow 0.5s ;
+}
+.product-item:hover{
+    margin-top: -7px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+
+}
+.product-image img{
+    width:200px ;
+    height:200px ;
+}
+.product-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    transition:background-color 0.5s ;
+}
+.product-image1:hover,
+.product-image3:hover,
+.product-image8:hover,
+.product-image12:hover,
+.product-image14:hover,
+.product-image17:hover,
+.product-image19:hover,
+.product-image23:hover,
+.product-image24:hover,
+.product-image25:hover,
+.product-image26:hover,
+.product-image28:hover,
+.product-image29:hover,
+.product-image36:hover,
+.product-image37:hover,
+.product-image38:hover,
+.product-image39:hover,
+.product-image41:hover,
+.product-image42:hover,
+.product-image43:hover,
+.product-image47:hover,
+.product-image49:hover,
+.product-image51:hover,
+.product-image52:hover,
+.product-image57:hover,
+.product-image59:hover,
+.product-image60:hover,
+.product-image62:hover,
+.product-image63:hover,
+.product-image64:hover,
+.product-image67:hover,
+.product-image68:hover,
+.product-image73:hover,
+.product-image75:hover,
+.product-image78:hover,
+.product-image79:hover,
+.product-image82:hover,
+.product-image83:hover,
+.product-image85:hover,
+.product-image86:hover,
+.product-image94:hover,
+.product-image95:hover,
+.product-image96:hover,
+.product-image97:hover,
+.product-image98:hover{
+    background-color: rgb(129, 135, 71);
+}
+.product-image2:hover{
+    background-color: rgb(146, 113, 86);
+}
+.product-image11:hover,
+.product-image4:hover{
+    background-color: rgb(164, 63, 65);
+}
+.product-image5:hover{
+    background-color: rgb(135, 145, 170);
+}
+.product-image6:hover,
+.product-image16:hover{
+    background-color: rgb(223, 142, 91);
+}
+.product-image7:hover{
+    background-color: rgb(100, 88, 122);
+}
+.product-image9:hover,
+.product-image13:hover,
+.product-image21:hover,
+.product-image66:hover,
+.product-image87:hover,
+.product-image88:hover{
+    background-color:rgb(123, 41, 43) ;
+}
+.product-image15:hover,
+.product-image18:hover,
+.product-image35:hover,
+.product-image71:hover,
+.product-image72:hover{
+    background-color: rgb(196, 2, 24);
+}
+.product-image22:hover,
+.product-image33:hover{
+    background-color: rgb(252, 201, 0);
+}
+.product-image27:hover,
+.product-image44:hover,
+.product-image56:hover,
+.product-image61:hover,
+.product-image90:hover{
+    background-color: rgb(213, 213, 213);
+}
+.product-image30:hover,
+.product-image58:hover{
+    background-color: rgb(16, 38, 30);
+}
+.product-image31:hover,
+.product-image48:hover,
+.product-image50:hover,
+.product-image55:hover,
+.product-image91:hover{
+    background-color: rgb(122, 122, 122);
+}
+.product-image32:hover{
+    background-color: rgb(247, 123, 0);
+}
+.product-image34:hover{
+    background-color: rgb(49, 112, 85);
+}
+.product-image38:hover,
+.product-image65:hover{
+    background-color: rgb(0, 49, 107);
+}
+.product-image45:hover,
+.product-image46:hover,
+.product-image76:hover,
+.product-image84:hover{
+    background-color: rgb(147, 170, 216);
+}
+.product-image53:hover,
+.product-image54:hover,
+.product-image80:hover{
+    background-color: rgb(219, 190, 154);
+}
+.product-image69:hover,
+.product-image70:hover,
+.product-image73:hover,
+.product-image93:hover{
+    background-color: rgb(140, 108, 82);
+}
+.product-image74:hover{
+    background-color: rgb(92, 161, 90);
+}
+.product-image77:hover{
+    background-color: rgb(156, 130, 136);
+}
+.product-image81:hover{
+    background-color: rgb(157, 202, 181);
+}
+.product-image89:hover,
+.product-image92:hover{
+    background-color: rgb(90, 94, 49);
+}
+.product-details{
+    margin-left: 30px;
+    margin-top: 10px;
+}

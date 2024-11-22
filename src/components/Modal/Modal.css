@@ -1,0 +1,111 @@
+.main__div-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    z-index: 1000;
+}
+
+.div-modal {
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px; 
+    width: 600px;
+    height: 700px;
+}
+.btn_colse{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin-left: -50px;
+    background-color:rgba(0, 0, 0, 0.8);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+.modal_title{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.modal_title b{
+    font-size: 20px;
+    font-weight: 70px;
+}
+.modal_title h5 {
+    width: 450px;
+    font-weight: 400;
+}
+.div-firstname{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.div-lastname{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.div-firstname input {
+    width:400px ;
+    height:30px;
+    padding:5px ;
+    border-radius: 5px;
+    border: 1px solid #c4bcbc;
+}
+.div-lastname input {
+    width:400px ;
+    height:30px;
+    padding:5px ;
+    border-radius: 5px;
+    border: 1px solid #c4bcbc;
+}
+.email input {
+    width:400px ;
+    height:30px;
+    padding:5px ;
+    border-radius: 5px;
+    border: 1px solid #c4bcbc;
+}
+.div_checkbox{
+    width: 300px;
+    height: 70px;
+    border: 2px solid #c4bcbc;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div_checkbox input {
+    width: 20px;
+    height: 20px;
+    margin: 40px;
+}
+.btn-subscride{
+    width: 200px;
+    height: 60px;
+    margin: 40px;
+    background-color:#898f4b ;
+    outline: none;
+    border: none;
+    font-weight: 1000;
+    border-radius: 10px;
+    transition:background-color 0.5s ;
+}
+.btn-subscride:hover{
+    background-color: #565b25;
+}

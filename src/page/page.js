@@ -6,6 +6,7 @@ import RangeMapper from "../components/Styler/RangeMapper/RangeMapper"
 import Banner2 from "../components/Banner2/Banner2";
 import Guide from "../components/Guide/Guide";
 import CoffeeEquipment from "../components/Styler/CoffeeEquipment/CoffeeEquipment"
+import Styler from "../components/Styler/Styler";
 const Page = () => {
     return(
         <div>
@@ -14,6 +15,9 @@ const Page = () => {
             </div>
             <div>
                 <Banner />
+            </div>
+            <div>
+                <Styler />
             </div>
             <div>
                 <ProductExplorer />

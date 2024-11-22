@@ -11,10 +11,7 @@ import CareerPath from "./components/CareerPath/CareerPath";
 import Merchandise from "./components/Merchandise/Merchandise";
 import CoffeeTools from "./components/CoffeeTools/CoffeeTools";
 import ProductRange from "./components/ProductRange/ProductRange";
-import CamposSuperior from "./components/Products/RangeMapperDatalist/CamposSuperior/CamposSuperior";
-import KingStBlend from "./components/Products/RangeMapperDatalist/KingStBlend/KingStBlend";
-import DarkCity from "./components/Products/RangeMapperDatalist/DarkCity/DarkCity";
-import DecafEspresso from "./components/Products/RangeMapperDatalist/DecafEspresso/DecafEspresso";
+import LoginPage from "./components/LoginPage/LoginPage";
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 
 
@@ -34,12 +31,7 @@ const App = () => {
         <Route path="/merchandise" element={<Merchandise />}/>
         <Route path="/coffeetools" element={<CoffeeTools/>} />
         <Route path="/productrange" element={<ProductRange />}/>
-      </Routes>
-      <Routes>
-        <Route path="/product/1" element={<CamposSuperior />} />
-        <Route path="/product/2" element={<KingStBlend />}/>
-        <Route path="/product/3" element={<DarkCity />}/>
-        <Route path="/product/4" element={<DecafEspresso />} />
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
       <Footer />
     </Router>

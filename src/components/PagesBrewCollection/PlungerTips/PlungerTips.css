@@ -1,0 +1,89 @@
+.plunger-tips-inner{
+    width: 100%;
+    height: 2200px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.plunger-tips-item{
+    width: 1000px;
+    height: 2100px;
+    background-color: #fff;
+
+}
+.div-plunger-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.div-plunger-img img {
+    width: 950px;
+    height: 600px;
+}
+.title-plunger{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.title-plunger p{
+    width: 500px;
+    margin-top: 50px;
+    font-style: bold;
+    font-weight: 700;
+}
+.title-plunger h1 {
+    margin-top: 60px;
+}
+.title-plunger h2 {
+    margin-top: -10px;
+    color: #8b8b8b;
+}
+.line-plunger{
+    width: 50px;
+    height: 7px;
+    background-color:#8a904c;
+}
+.numbered-list ol{
+    color: rgb(237, 205, 165);
+    font-size: 15px;
+    font-weight: 800;
+}
+.numbered-list li{
+    margin: 13px;
+}
+.numbered-list span{
+    color: #000;
+    font-weight: 500;
+    margin: 10px;
+}
+.div__list{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+.div-table{
+    margin-top: 80px;
+}
+.div__protips{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.div__protips li{
+    margin: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.div__protips p {
+    margin-top: 50px;
+}

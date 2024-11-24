@@ -12,6 +12,7 @@ import Merchandise from "./components/Merchandise/Merchandise";
 import CoffeeTools from "./components/CoffeeTools/CoffeeTools";
 import ProductRange from "./components/ProductRange/ProductRange";
 import LoginPage from "./components/LoginPage/LoginPage";
+import BrewCollection from "./components/BrewCollection/BrewCollection";
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 
 
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/coffeetools" element={<CoffeeTools/>} />
         <Route path="/productrange" element={<ProductRange />}/>
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/brewcollection" element={<BrewCollection />}/>
       </Routes>
       <Footer />
     </Router>

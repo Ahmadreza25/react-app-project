@@ -1,0 +1,36 @@
+.div_main__pages {
+    padding-top: 70px;
+}
+.main-div__btn{
+    width: 100%;
+    height: 60px;
+    background-color: #8a904c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.next{
+    width: 100px;
+    height: 40px;
+    margin-left: 50px;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    font-size:15px;
+    background-color: #656932;
+    color: #fff;
+    border-radius: 5px;
+}
+.priv{
+    width: 100px;
+    height: 40px;
+    margin-right: 50px;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    font-size:15px;
+    background-color: #656932;
+    color: #fff;
+    border-radius: 5px;
+}

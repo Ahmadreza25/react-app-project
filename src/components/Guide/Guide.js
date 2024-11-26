@@ -3,6 +3,7 @@ import img1 from "../../images/img-giude/img1.png"
 import img2 from "../../images/img-giude/img2.png"
 import img3 from "../../images/img-giude/img3.png"
 import "./Guide.css"
+import { Link } from "react-router-dom";
 
 const productData = [
     {
@@ -38,17 +39,19 @@ const Guide = () => {
                 <div className="div-guides">
                     {
                         productData.map((item) => (
-                            <div className="guides">
-                                <div>
-                                    <img src={item.img} className="img-guides"/>
+                            <Link to="/brewcollection" className="link">
+                                <div className="guides">
+                                    <div>
+                                        <img src={item.img} className="img-guides"/>
+                                    </div>
+                                    <div className="div-linr-2"></div>
+                                    <div>
+                                        <p className="title-guides">
+                                            How To Brew: {item.title}
+                                        </p>
+                                    </div>
                                 </div>
-                                <div className="div-linr-2"></div>
-                                <div>
-                                    <p className="title-guides">
-                                        How To Brew: {item.title}
-                                    </p>
-                                </div>
-                            </div>
+                            </Link>
                         ))
                     }
                 </div>

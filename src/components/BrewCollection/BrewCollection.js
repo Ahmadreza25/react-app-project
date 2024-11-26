@@ -10,10 +10,10 @@ import "./BrewCollection.css"
 
 const pages = [
     <PlungerTips />,
-    <AeropressGuide />
-    // <RecipeManager /> ,
-    // <SourcingPrinciples />,
-    // <Traceability />
+    <AeropressGuide />,
+    <RecipeManager /> ,
+    <SourcingPrinciples />,
+    <Traceability />,
 ]
 
 const BrewCollection = () => {

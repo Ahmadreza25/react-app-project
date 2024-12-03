@@ -13,11 +13,11 @@ import CoffeeTools from "./components/CoffeeTools/CoffeeTools";
 import ProductRange from "./components/ProductRange/ProductRange";
 import LoginPage from "./components/LoginPage/LoginPage";
 import BrewCollection from "./components/BrewCollection/BrewCollection";
-import ItemWon from "./components/ItemsExplorer/ItemWon/ItemWon";
-import ItemTo from "./components/ItemsExplorer/ItemTo/ItemTo";
-import ItemTre from "./components/ItemsExplorer/ItemTre/ItemTre";
-import ItemFor from "./components/ItemsExplorer/ItemFor/ItemFor";
-import ItemFayw from "./components/ItemsExplorer/ItemFayw/ItemFayw";
+import ItemExplorerWon from "./components/ItemsExplorer/ItemExplorerWon/ItemExplorerWon";
+import ItemExplorerTo from "./components/ItemsExplorer/ItemExplorerTo/ItemExplorerTo";
+import ItemExplorerTre from "./components/ItemsExplorer/ItemExplorerTre/ItemExplorerTre";
+import ItemExplorerFor from "./components/ItemsExplorer/ItemExplorerFor/ItemExplorerFor";
+import ItemExplorerFayw from "./components/ItemsExplorer/ItemExplorerFayw/ItemExplorerFayw";
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 
 const App = () => {
@@ -39,11 +39,14 @@ const App = () => {
         <Route path="/brewcollection" element={<BrewCollection />}/>
       </Routes>
       <Routes>
-        <Route path="/product/1" element={<ItemWon />}/>
-        <Route path="/product/2" element={<ItemTo />}/>
-        <Route path="/product/3" element={<ItemTre />}/>
-        <Route path="/product/4" element={<ItemFor />}/>
-        <Route path="/product/5" element={<ItemFayw />}/>
+        <Route path="/product/1" element={<ItemExplorerWon />}/>
+        <Route path="/product/2" element={<ItemExplorerTo />}/>
+        <Route path="/product/3" element={<ItemExplorerTre />}/>
+        <Route path="/product/4" element={<ItemExplorerFor />}/>
+        <Route path="/product/5" element={<ItemExplorerFayw />}/>
+      </Routes>
+      <Routes>
+        <Route path="/product2/1"/>
       </Routes>
       <Footer />
     </Router>

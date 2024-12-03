@@ -5,10 +5,10 @@ import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
 import img1 from "../../../images/img-to/img1.webp"
 import img2 from "../../../images/img-to/img2.jpg"
-import "./ItemTo.css"
+import "./ItemExplorerTo.css"
 
 
-const ItemTo = () => {
+const ItemExplorerTo = () => {
     const {id = 2} = useParams()
     const item = productData.find(p => p.id === parseInt(id))
     return(
@@ -124,4 +124,4 @@ const ItemTo = () => {
     )
 }
 
-export default ItemTo
+export default ItemExplorerTo

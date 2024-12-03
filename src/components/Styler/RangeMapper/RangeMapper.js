@@ -23,6 +23,7 @@ const RangeMapper = () => {
                     <div className="div-main-cart2">
                         {
                             DataRangeMapper.map((item , index) => (
+                                <Link to={`/product2/${item.id}`} className="link">
                                     <div className="div-cart-main2">
                                         <div className={`div-img-cart div-img-cart${index + 1}`}>
                                             <img src={item.image} className="img-cart2"/>
@@ -39,6 +40,7 @@ const RangeMapper = () => {
                                             </h5>
                                         </div>    
                                     </div>
+                                </Link>
                             ))
                         }
                     </div>

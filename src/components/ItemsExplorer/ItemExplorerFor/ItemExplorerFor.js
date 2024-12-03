@@ -3,27 +3,27 @@ import { productData } from "../../Styler/ProductExplorer/ProductExplorer";
 import { useParams } from "react-router-dom";
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
-import img1 from "../../../images/img-won/img1.webp"
-import img2 from "../../../images/img-won/img2.jpg"
-import "./ItemWon.css"
+import img1 from "../../../images/img-for/img1.webp"
+import img2 from "../../../images/img-for/img2.png"
+import "./ItemExplorerFor.css"
 
 
-const ItemWon = () => {
-    const {id = 1} = useParams()
+const ItemExplorerFor = () => {
+    const {id = 4} = useParams()
     const item = productData.find(p => p.id === parseInt(id))
     return(
         <div>
-            <div className="div_item__won">
-                <div className="div-main__item1">
-                    <div className="img-item-1">
+            <div className="div__item_for">
+                <div className="div-main__item4">
+                    <div className="img-item-4">
                         <img src={item.image}/>
                     </div>
-                    <div className="factor-item1">
-                        <div className="div_main__factor1">
+                    <div className="factor-item4">
+                        <div className="div_main__factor4">
                             <div className="div-capsules">
-                                <h2>
+                                <h3>
                                 Capsules
-                                </h2>
+                                </h3>
                                 <h1>
                                     {item.title}
                                 </h1>
@@ -85,49 +85,39 @@ const ItemWon = () => {
                         </div>
                     </div>
                 </div>
-                <div className="title-item-1">
+                <div className="title-item-4">
                     <div>
-                        <b>ABOUT CAMPOS CAPSULES </b>
+                        <b>ABOUT CAMPOS CAPSULES</b>
                         <p>
-                            Using decades of sourcing and roasting experience, our coffee crew have recreated the 
-                            distinctive taste of Campos into a range of convenient capsules to stand above the rest. 
-                            Our aluminium coffee capsules are designed to perfectly capture 
-                            the flavour profile and fresh aroma of our coffees to ensure a superior taste, every time. 
+                            Using decades of sourcing and roasting experience, our coffee crew have recreated the distinctive 
+                            taste of Campos into a range of convenient capsules to stand above the rest. Our aluminium coffee 
+                            capsules are designed to perfectly capture the flavour profile and fresh aroma of our coffees 
+                            to ensure a superior taste, every time. 
                         </p>
                         <p>
                             Campos Coffee Capsules are compatible with Nespresso®* original coffee machines and are fully 
                             recyclable too.  Each pack contains 10 aluminium capsules.
                         </p>
-                    </div>
-                    <div>
                         <img src={img1} className="img-table"/>
                     </div>
                     <div>
-                        <b>
-                            ABOUT OUR SUPERIOR BLEND CAPSULES
-                        </b>
+                        <b>ABOUT OUR DECAF ESPRESSO BLEND CAPSULES </b>
                         <p>
-                            If you have ordered a cup of Campos coffee in our famous green cup, then you’ve tasted our Campos Superior blend. Campos Superior is our signature, quintessential specialty coffee café blend. 
+                            Who said decaf coffee can’t taste good? We take this coffee very seriously because we love 
+                            delivering a delicious decaf for everyone to enjoy.
                         </p>
                         <p>
-                            It’s what we’ve proudly served in our cafes since day one in Newtown, 2002.  
+                            Our decaffeinated specialty coffee blend is marked by notes of cocoa, malt and wild 
+                            berries. This is an elegant espresso with 
+                            the unmistakable prominence of real coffee flavours.
                         </p>
-                        <p>
-                            Campos Superior Blend coffee capsule is a full-bodied coffee that has 
-                            been expertly roasted to deliver the distinct caramel notes and rich 
-                            flavour of Campos Superior in every capsules. Famously excellent with milk 
-                            and when served black, flavours of red fruit and apricot shine through. 
-                        </p>
-                    </div>
-                    <div>
                         <img src={img2}/>
                     </div>
                     <div>
-                        <b>
-                        ABOUT OUR RECYCLING PROGRAM 
-                        </b>
+                        <b>ABOUT OUR RECYCLING PROGRAM </b>
                         <p>
-                            Our Campos coffee capsules are made from aluminium which means they can be recycled. We’ve partnered with TerraCycle® to create a 
+                            Our Campos coffee capsules are made from aluminium which 
+                            means they can be recycled. We’ve partnered with TerraCycle® to create a 
                             recycling program that is not only easy, but free! 
                         </p>
                         <p>
@@ -140,4 +130,4 @@ const ItemWon = () => {
     )
 }
 
-export default ItemWon
+export default ItemExplorerFor

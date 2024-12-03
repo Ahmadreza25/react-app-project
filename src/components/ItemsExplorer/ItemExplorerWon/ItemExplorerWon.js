@@ -3,27 +3,27 @@ import { productData } from "../../Styler/ProductExplorer/ProductExplorer";
 import { useParams } from "react-router-dom";
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
-import img1 from "../../../images/img-tre/img1.webp"
-import img2 from "../../../images/img-tre/img2.png"
-import "./ItemTre.css"
+import img1 from "../../../images/img-won/img1.webp"
+import img2 from "../../../images/img-won/img2.jpg"
+import "./ItemExplorerWon.css"
 
 
-const ItemTre = () => {
-    const {id = 3} = useParams()
+const ItemExplorerWon = () => {
+    const {id = 1} = useParams()
     const item = productData.find(p => p.id === parseInt(id))
     return(
         <div>
-            <div className="div__item_tre">
-                <div className="div-main__item3">
-                    <div className="img-item-3">
+            <div className="div_item__won">
+                <div className="div-main__item1">
+                    <div className="img-item-1">
                         <img src={item.image}/>
                     </div>
-                    <div className="factor-item3">
-                        <div className="div_main__factor2">
+                    <div className="factor-item1">
+                        <div className="div_main__factor1">
                             <div className="div-capsules">
-                                <h3>
+                                <h2>
                                 Capsules
-                                </h3>
+                                </h2>
                                 <h1>
                                     {item.title}
                                 </h1>
@@ -35,14 +35,14 @@ const ItemTre = () => {
                             <div className="div-roast">
                                 <b>ROAST</b>
                                 <div className="div-circle">
-                                <div className="circle1"></div>
-                                <div className="circle2"></div>
-                                <div className="circle3"></div>
-                                <div className="circle4 color-circle4"></div>
-                                <div className="circle5"></div>
-                                <div className="circle6"></div>
-                                <div className="circle7"></div>
-                            </div>
+                                    <div className="circle1"></div>
+                                    <div className="circle2"></div>
+                                    <div className="circle3"></div>
+                                    <div className="circle4"></div>
+                                    <div className="circle5 color-circle5"></div>
+                                    <div className="circle6"></div>
+                                    <div className="circle7"></div>
+                                </div>
                             </div>
                             <div className="div-profile">
                                 <b>
@@ -85,7 +85,7 @@ const ItemTre = () => {
                         </div>
                     </div>
                 </div>
-                <div className="title-item-3">
+                <div className="title-item-1">
                     <div>
                         <b>ABOUT CAMPOS CAPSULES </b>
                         <p>
@@ -95,34 +95,43 @@ const ItemTre = () => {
                             the flavour profile and fresh aroma of our coffees to ensure a superior taste, every time. 
                         </p>
                         <p>
-                        Campos Coffee Capsules are compatible with Nespresso®* original coffee machines and are fully recyclable too.  Each pack contains 10 aluminium capsules.
+                            Campos Coffee Capsules are compatible with Nespresso®* original coffee machines and are fully 
+                            recyclable too.  Each pack contains 10 aluminium capsules.
                         </p>
+                    </div>
+                    <div>
                         <img src={img1} className="img-table"/>
                     </div>
                     <div>
-                        <b>ABOUT OUR CHAPEL ST BLEND CAPSULES </b>
+                        <b>
+                            ABOUT OUR SUPERIOR BLEND CAPSULES
+                        </b>
                         <p>
-                        Campos Chapel St blend will delight you with a fusion of vibrant flavours, just like the iconic Melbourne precinct it was named after. 
+                            If you have ordered a cup of Campos coffee in our famous green cup, then you’ve tasted our Campos Superior blend. Campos Superior is our signature, quintessential specialty coffee café blend. 
                         </p>
                         <p>
-                            Notes of citrus fruits, jasmine honeysuckle and red apple are just some of the 
-                            flavours which shine through in this delicious blend. These fruity and floral flavour 
-                            characteristics are synonymous with some of the most premium coffee varieties in the world.
+                            It’s what we’ve proudly served in our cafes since day one in Newtown, 2002.  
                         </p>
                         <p>
-                        We’ve favoured a slightly lighter roast degree to highlight the flavour notes and produce an exceptional cup of specialty coffee. Perfect as a longer shot.
+                            Campos Superior Blend coffee capsule is a full-bodied coffee that has 
+                            been expertly roasted to deliver the distinct caramel notes and rich 
+                            flavour of Campos Superior in every capsules. Famously excellent with milk 
+                            and when served black, flavours of red fruit and apricot shine through. 
                         </p>
+                    </div>
+                    <div>
                         <img src={img2}/>
                     </div>
                     <div>
-                        <b>ABOUT OUR RECYCLING PROGRAM </b>
+                        <b>
+                        ABOUT OUR RECYCLING PROGRAM 
+                        </b>
                         <p>
-                            Our Campos coffee capsules are made from aluminium which means 
-                            they can be recycled. We’ve partnered with TerraCycle® 
-                            to create a recycling program that is not only easy, but free! 
+                            Our Campos coffee capsules are made from aluminium which means they can be recycled. We’ve partnered with TerraCycle® to create a 
+                            recycling program that is not only easy, but free! 
                         </p>
                         <p>
-                            All you need to do is collect your used coffee capsules and when you’re ready, send them in. 
+                            All you need to do is collect your used coffee capsules and when you’re ready, send them in.  
                         </p>
                     </div>
                 </div>
@@ -131,4 +140,4 @@ const ItemTre = () => {
     )
 }
 
-export default ItemTre
+export default ItemExplorerWon

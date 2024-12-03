@@ -6,10 +6,10 @@ import img2 from "../../../images/img-fayw/img2.webp"
 import img3 from "../../../images/img-fayw/img3.webp"
 import img4 from "../../../images/img-fayw/img4.webp"
 import img5 from "../../../images/img-fayw/img5.png"
-import "./ItemFayw.css"
+import "./ItemExplorerFayw.css"
 
 
-const ItemFayw = () => {
+const ItemExplorerFayw = () => {
     const {id = 5} = useParams()
     const item = productData.find(p => p.id === parseInt(id))
     return(
@@ -177,4 +177,4 @@ const ItemFayw = () => {
     )
 }
 
-export default ItemFayw
+export default ItemExplorerFayw

@@ -13,9 +13,12 @@ import CoffeeTools from "./components/CoffeeTools/CoffeeTools";
 import ProductRange from "./components/ProductRange/ProductRange";
 import LoginPage from "./components/LoginPage/LoginPage";
 import BrewCollection from "./components/BrewCollection/BrewCollection";
+import ItemWon from "./components/ItemsExplorer/ItemWon/ItemWon";
+import ItemTo from "./components/ItemsExplorer/ItemTo/ItemTo";
+import ItemTre from "./components/ItemsExplorer/ItemTre/ItemTre";
+import ItemFor from "./components/ItemsExplorer/ItemFor/ItemFor";
+import ItemFayw from "./components/ItemsExplorer/ItemFayw/ItemFayw";
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
-
-
 
 const App = () => {
   return(
@@ -34,6 +37,13 @@ const App = () => {
         <Route path="/productrange" element={<ProductRange />}/>
         <Route path="/login" element={<LoginPage />} />
         <Route path="/brewcollection" element={<BrewCollection />}/>
+      </Routes>
+      <Routes>
+        <Route path="/product/1" element={<ItemWon />}/>
+        <Route path="/product/2" element={<ItemTo />}/>
+        <Route path="/product/3" element={<ItemTre />}/>
+        <Route path="/product/4" element={<ItemFor />}/>
+        <Route path="/product/5" element={<ItemFayw />}/>
       </Routes>
       <Footer />
     </Router>

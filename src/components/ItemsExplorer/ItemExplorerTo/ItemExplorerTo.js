@@ -87,7 +87,7 @@ const ItemExplorerTo = () => {
                 </div>
                 <div className="title-item-2">
                     <div>
-                        <b>ABOUT CAMPOS CAPSULES </b>
+                        <h2>ABOUT CAMPOS CAPSULES </h2>
                         <p>
                             Using decades of sourcing and roasting experience, our coffee crew have
                             recreated the distinctive taste of Campos into a range of convenient capsules 
@@ -100,9 +100,9 @@ const ItemExplorerTo = () => {
                         <img src={img1} className="img-table"/>
                     </div>
                     <div>
-                        <b>
+                        <h2>
                         ABOUT OUR KING ST BLEND CAPSULES
-                        </b>
+                        </h2>
                         <p>
                         Named after the main drag in Newtown, the neighbourhood where it all began for Campos, this is one seriously smooth blend  
                         </p>
@@ -115,7 +115,7 @@ const ItemExplorerTo = () => {
                         <img src={img2}/>
                     </div>
                     <div>
-                        <b>ABOUT OUR RECYCLING PROGRAM </b>
+                        <h2>ABOUT OUR RECYCLING PROGRAM </h2>
                         <p>Our Campos coffee capsules are made from aluminium which means they can be recycled. We’ve partnered with TerraCycle® to create a recycling program that is not only easy, but free! </p>
                     </div>
                 </div>

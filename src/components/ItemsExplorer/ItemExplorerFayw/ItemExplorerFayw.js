@@ -89,7 +89,7 @@ const ItemExplorerFayw = () => {
                 </div>
                 <div className="title-item-5">
                     <div>
-                        <b>ABOUT OUR COFFFEE CAPSULES SUBSCRIPTION </b>
+                        <h2>ABOUT OUR COFFFEE CAPSULES SUBSCRIPTION </h2>
                         <p>
                             Never run out of coffee again! Our Campos Coffee Capsules Subscription will deliver coffee right to your door every week, fortnight or month.  
                         </p>
@@ -106,7 +106,7 @@ const ItemExplorerFayw = () => {
                     </div>
                     <div>
                         <img src={img1}/>
-                        <b>CAMPOS SUPERIOR BLEND </b>
+                        <h2>CAMPOS SUPERIOR BLEND </h2>
                         <p>
                             If you have ordered a cup of Campos coffee in our famous green cup, then 
                             you’ve tasted our Campos Superior blend. Campos Superior is 
@@ -121,7 +121,7 @@ const ItemExplorerFayw = () => {
                     </div>
                     <div>
                         <img src={img2}/>
-                        <b>KING ST BLEND </b>
+                        <h2>KING ST BLEND </h2>
                         <p>
                             Named after the main drag in Newtown, the neighbourhood where it all began for Campos, this is one seriously smooth blend.  
                         </p>
@@ -133,7 +133,7 @@ const ItemExplorerFayw = () => {
                     </div>
                     <div>
                         <img src={img3}/>
-                        <b>INDONESIA SINGLE ORIGIN </b>
+                        <h2>INDONESIA SINGLE ORIGIN </h2>
                         <p>
                             Indonesia is one of the most exciting and diverse coffee growing regions 
                             in the world, and it’s right on our doorstep. 
@@ -147,7 +147,7 @@ const ItemExplorerFayw = () => {
                     </div>
                     <div>
                         <img src={img4}/>
-                        <b>ROMA BLEND</b>
+                        <h2>ROMA BLEND</h2>
                         <p>
                             Campos Roma blend is our very own take on the influential Italian style of roasting and blending which has helped define Australia’s cafe culture.
                         </p>
@@ -161,7 +161,7 @@ const ItemExplorerFayw = () => {
                     </div>
                     <div>
                         <img src={img5}/>
-                        <b>DECAF ESPRESSO BLEND</b>
+                        <h2>DECAF ESPRESSO BLEND</h2>
                         <p>
                             Who said decaf coffee can’t taste good? We take this coffee very seriously because we love 
                             delivering a delicious decaf for everyone to enjoy.

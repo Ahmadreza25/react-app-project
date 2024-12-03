@@ -18,6 +18,10 @@ import ItemExplorerTo from "./components/ItemsExplorer/ItemExplorerTo/ItemExplor
 import ItemExplorerTre from "./components/ItemsExplorer/ItemExplorerTre/ItemExplorerTre";
 import ItemExplorerFor from "./components/ItemsExplorer/ItemExplorerFor/ItemExplorerFor";
 import ItemExplorerFayw from "./components/ItemsExplorer/ItemExplorerFayw/ItemExplorerFayw";
+import ItemRangeMapperWon from "./components/ItemsRangeMapper/ItemRangeMapperWon/ItemRangeMapperWon";
+import ItemRangeMapperTo from "./components/ItemsRangeMapper/ItemRangeMapperTo/ItemRangeMapperTo";
+import ItemRangeMapperTre from "./components/ItemsRangeMapper/ItemRangeMapperTre/ItemRangeMapperTre";
+import ItemRangeMapperFor from "./components/ItemsRangeMapper/ItemRangeMapperFor/ItemRangeMapperFor";
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 
 const App = () => {
@@ -46,7 +50,10 @@ const App = () => {
         <Route path="/product/5" element={<ItemExplorerFayw />}/>
       </Routes>
       <Routes>
-        <Route path="/product2/1"/>
+        <Route path="/product2/1" element={<ItemRangeMapperWon/>}/>
+        <Route path="/product2/2" element={<ItemRangeMapperTo />}/>
+        <Route path="/product2/3" element={<ItemRangeMapperTre />}/>
+        <Route path="/product2/4" element={<ItemRangeMapperFor />}/>
       </Routes>
       <Footer />
     </Router>

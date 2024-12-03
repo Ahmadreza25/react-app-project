@@ -1,29 +1,27 @@
 import React from "react";
-import { productData } from "../../Styler/ProductExplorer/ProductExplorer";
+import { DataRangeMapper } from "../../../data/DataRangeMapper";
 import { useParams } from "react-router-dom";
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
-import img1 from "../../../images/img-for/img1.webp"
-import img2 from "../../../images/img-for/img2.png"
-import "./ItemExplorerFor.css"
+import "./ItemRangeMapperTo.css"
 
 
-const ItemExplorerFor = () => {
-    const {id = 4} = useParams()
-    const item = productData.find(p => p.id === parseInt(id))
+const ItemRangeMapperTo = () => {
+    const {id = 2} = useParams()
+    const item = DataRangeMapper.find(p => p.id === parseInt(id))
     return(
         <div>
-            <div className="div__item_for">
-                <div className="div-main__item4">
-                    <div className="img-item-4">
+            <div className="div-item-2">
+                <div className="div-main-item2">
+                    <div className="img-item-to">
                         <img src={item.image}/>
                     </div>
-                    <div className="factor-item4">
-                        <div className="div_main__factor4">
+                    <div className="factor-item-2">
+                        <div className="div-main-factor2">
                             <div className="div-capsules">
-                                <h3>
+                                <h2>
                                 Capsules
-                                </h3>
+                                </h2>
                                 <h1>
                                     {item.title}
                                 </h1>
@@ -85,44 +83,66 @@ const ItemExplorerFor = () => {
                         </div>
                     </div>
                 </div>
-                <div className="title-item-4">
+                <div className="title-item-to">
                     <div>
-                        <h2>ABOUT CAMPOS CAPSULES</h2>
                         <p>
-                            Using decades of sourcing and roasting experience, our coffee crew have recreated the distinctive 
-                            taste of Campos into a range of convenient capsules to stand above the rest. Our aluminium coffee 
-                            capsules are designed to perfectly capture the flavour profile and fresh aroma of our coffees 
-                            to ensure a superior taste, every time. 
+                        This coffee is available in 250g ground OR whole bean | 500g whole bean | 1kg whole bean. For more information, please visit our FAQs page.
+                        </p>
+                        <h2>ABOUT THIS COFFEE</h2>
+                        <p>
+                        Blade Runner has been roasted in a unique way to be enjoyed as either a filter or espresso.
                         </p>
                         <p>
-                            Campos Coffee Capsules are compatible with Nespresso®* original coffee machines and are fully 
-                            recyclable too.  Each pack contains 10 aluminium capsules.
+                        It has a brighter, juicier profile much like you would find in many leading coffee bars in Scandinavia.
                         </p>
-                        <img src={img1} className="img-table"/>
+                        <p>
+                        Not the usual rich chocolates and caramels you would expect to find, but a delicious foray into a new style of coffee blend for us.
+                        </p>
                     </div>
                     <div>
-                        <h2>ABOUT OUR DECAF ESPRESSO BLEND CAPSULES </h2>
-                        <p>
-                            Who said decaf coffee can’t taste good? We take this coffee very seriously because we love 
-                            delivering a delicious decaf for everyone to enjoy.
-                        </p>
-                        <p>
-                            Our decaffeinated specialty coffee blend is marked by notes of cocoa, malt and wild 
-                            berries. This is an elegant espresso with 
-                            the unmistakable prominence of real coffee flavours.
-                        </p>
-                        <img src={img2}/>
+                        <h2>
+                            INFORMATION
+                        </h2>
+                        <div>
+                            <b>Country</b>
+                            <p>Kenyan and Ethiopian</p>
+                        </div>
+                        <div>
+                            <b>Roast</b>
+                            <p>Scandinavian Roast</p>
+                        </div>
+                        <div>
+                            <b>Tasting Notes</b>
+                            <p>Juicy & Vibrant. Sweet like Toffee. Flavours like Tropical Fruit.</p>
+                        </div>
                     </div>
                     <div>
-                        <h2>ABOUT OUR RECYCLING PROGRAM </h2>
+                        <h2>Espresso and Filter</h2>
                         <p>
-                            Our Campos coffee capsules are made from aluminium which 
-                            means they can be recycled. We’ve partnered with TerraCycle® to create a 
-                            recycling program that is not only easy, but free! 
+                            As the Specialty Coffee market develops, new doors open. Currently, we have blends 
+                            which represent the origins of filter with roast profiles 
+                            matching Southern Italy, Northern Italy, and Australia.
                         </p>
                         <p>
-                            All you need to do is collect your used coffee capsules and when you’re ready, send them in.  
+                            Over the last few years, there has been the emergence of a new style of roasting and blending which has 
+                            been spurred on by new wave roasters in Scandinavia.
                         </p>
+                        <p>
+                            Of particular note is a handful of Norwegian roasters who have based their filter styles on a 
+                            roast profile that is much lighter than what was previously the norm.
+                        </p>
+                        <p>
+                            Higher acidity and brighter coffee profiles became commonplace in “3rd wave” speciality 
+                            coffee as a result of the success of the Scandinavian trailblazers.
+                            Blade Runner blend is our tribute to this exciting movement.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Our Innovation</h2>
+                        <p>Our innovation team and roasters have collaborated on a 12-month project to develop this Nordic style coffee blend which offers an ultra-bright and juicy result.</p>
+                        <p>The coffees used in the blend are brighter Kenyan and Ethiopian with a touch of natural processed coffee to elevate the fruity notes.</p>
+                        <p>We are having a great time running it through our espresso machines and as a filter brew in our stores as well.</p>
+                        <p>We know you will enjoy tasting this Scandinavian inspired coffee blend.</p>
                     </div>
                 </div>
             </div>
@@ -130,4 +150,4 @@ const ItemExplorerFor = () => {
     )
 }
 
-export default ItemExplorerFor
+export default ItemRangeMapperTo

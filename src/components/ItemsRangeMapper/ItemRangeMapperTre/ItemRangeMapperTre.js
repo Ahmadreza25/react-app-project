@@ -1,29 +1,27 @@
 import React from "react";
-import { productData } from "../../Styler/ProductExplorer/ProductExplorer";
+import { DataRangeMapper } from "../../../data/DataRangeMapper";
 import { useParams } from "react-router-dom";
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
-import img1 from "../../../images/img-for/img1.webp"
-import img2 from "../../../images/img-for/img2.png"
-import "./ItemExplorerFor.css"
+import "./ItemRangeMapperTre.css"
 
 
-const ItemExplorerFor = () => {
-    const {id = 4} = useParams()
-    const item = productData.find(p => p.id === parseInt(id))
+const ItemRangeMapperTre = () => {
+    const {id = 3} = useParams()
+    const item = DataRangeMapper.find(p => p.id === parseInt(id))
     return(
         <div>
-            <div className="div__item_for">
-                <div className="div-main__item4">
-                    <div className="img-item-4">
+            <div className="div-item-3">
+                <div className="div-main-item3">
+                    <div className="img-item-tre">
                         <img src={item.image}/>
                     </div>
-                    <div className="factor-item4">
-                        <div className="div_main__factor4">
+                    <div className="factor-item-3">
+                        <div className="div-main-factor3">
                             <div className="div-capsules">
-                                <h3>
+                                <h2>
                                 Capsules
-                                </h3>
+                                </h2>
                                 <h1>
                                     {item.title}
                                 </h1>
@@ -85,44 +83,41 @@ const ItemExplorerFor = () => {
                         </div>
                     </div>
                 </div>
-                <div className="title-item-4">
+                <div className="title-item-tre">
                     <div>
-                        <h2>ABOUT CAMPOS CAPSULES</h2>
                         <p>
-                            Using decades of sourcing and roasting experience, our coffee crew have recreated the distinctive 
-                            taste of Campos into a range of convenient capsules to stand above the rest. Our aluminium coffee 
-                            capsules are designed to perfectly capture the flavour profile and fresh aroma of our coffees 
-                            to ensure a superior taste, every time. 
+                            This coffee is available in 250g ground OR whole bean | 500g whole bean | 
+                            1kg whole bean. For more information, please visit our FAQs page.
+                        </p>
+                        <h2>ABOUT THIS ESPRESSO COFFEE</h2>
+                        <p>
+                            One of our darker roasts with kick. It blends sweet chocolate and forest fruits. Refined and handsome.
                         </p>
                         <p>
-                            Campos Coffee Capsules are compatible with Nespresso®* original coffee machines and are fully 
-                            recyclable too.  Each pack contains 10 aluminium capsules.
+                            Another rich blend, but more on the cocoa side of the flavour wheel and roasted a touch darker than our 
+                            usual Australian style roast. Bold but smooth; strong but not bitter.
                         </p>
-                        <img src={img1} className="img-table"/>
                     </div>
                     <div>
-                        <h2>ABOUT OUR DECAF ESPRESSO BLEND CAPSULES </h2>
-                        <p>
-                            Who said decaf coffee can’t taste good? We take this coffee very seriously because we love 
-                            delivering a delicious decaf for everyone to enjoy.
-                        </p>
-                        <p>
-                            Our decaffeinated specialty coffee blend is marked by notes of cocoa, malt and wild 
-                            berries. This is an elegant espresso with 
-                            the unmistakable prominence of real coffee flavours.
-                        </p>
-                        <img src={img2}/>
+                        <h2>Information</h2>
+                        <div>
+                            <b>Farm</b>
+                            <p>More body oriented farms from Indian, Colombian, Kenya</p>
+                        </div>
+                        <div>
+                            <b>Roast</b>
+                            <p>Northern Italian Roast</p>
+                        </div>
+                        <div>
+                            <b>Cupping Notes</b>
+                            <p>Balanced & Hearty. Sweet like Belgian Chocolate. Flavours like Forest Fruits.</p>
+                        </div>
                     </div>
                     <div>
-                        <h2>ABOUT OUR RECYCLING PROGRAM </h2>
-                        <p>
-                            Our Campos coffee capsules are made from aluminium which 
-                            means they can be recycled. We’ve partnered with TerraCycle® to create a 
-                            recycling program that is not only easy, but free! 
-                        </p>
-                        <p>
-                            All you need to do is collect your used coffee capsules and when you’re ready, send them in.  
-                        </p>
+                        <h2>Our aim for this Espresso Blend</h2>
+                        <p>Our aim for this blend is to deliver a rich body with prominent chocolate flavours in the cup.  Sweet, yes, but with a solid trunk which carries through in the cup.</p>
+                        <p>This blend has been a big favourite among the long term regulars with their home espresso machines and always delivers good complexity of nuts, earthy notes and a touch of fruits.</p>
+                        <p>This coffee is taken slightly darker than our typical espresso roast and exemplifies a dark Northern Italian roast style which is easy to appreciate in milky beverages.</p>
                     </div>
                 </div>
             </div>
@@ -130,4 +125,4 @@ const ItemExplorerFor = () => {
     )
 }
 
-export default ItemExplorerFor
+export default ItemRangeMapperTre

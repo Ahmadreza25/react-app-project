@@ -1,29 +1,27 @@
 import React from "react";
-import { productData } from "../../Styler/ProductExplorer/ProductExplorer";
+import { DataRangeMapper } from "../../../data/DataRangeMapper";
 import { useParams } from "react-router-dom";
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
-import img1 from "../../../images/img-for/img1.webp"
-import img2 from "../../../images/img-for/img2.png"
-import "./ItemExplorerFor.css"
+import img1 from "../../../images/img-items-r/img-1.jpg"
+import "./ItemRangeMapperWon.css"
 
-
-const ItemExplorerFor = () => {
-    const {id = 4} = useParams()
-    const item = productData.find(p => p.id === parseInt(id))
+const ItemRangeMapperWon = () => {
+    const {id = 1} = useParams()
+    const item = DataRangeMapper.find(p => p.id === parseInt(id))
     return(
         <div>
-            <div className="div__item_for">
-                <div className="div-main__item4">
-                    <div className="img-item-4">
+            <div className="div-item-1">
+                <div className="div-main-item1">
+                    <div className="img-item-won">
                         <img src={item.image}/>
                     </div>
-                    <div className="factor-item4">
-                        <div className="div_main__factor4">
+                    <div className="factor-item-1">
+                        <div className="div-main-factor1">
                             <div className="div-capsules">
-                                <h3>
+                                <h2>
                                 Capsules
-                                </h3>
+                                </h2>
                                 <h1>
                                     {item.title}
                                 </h1>
@@ -85,43 +83,60 @@ const ItemExplorerFor = () => {
                         </div>
                     </div>
                 </div>
-                <div className="title-item-4">
+                <div className="title-item-won">
                     <div>
-                        <h2>ABOUT CAMPOS CAPSULES</h2>
                         <p>
-                            Using decades of sourcing and roasting experience, our coffee crew have recreated the distinctive 
-                            taste of Campos into a range of convenient capsules to stand above the rest. Our aluminium coffee 
-                            capsules are designed to perfectly capture the flavour profile and fresh aroma of our coffees 
-                            to ensure a superior taste, every time. 
+                        This coffee is available in 250g ground OR whole bean | 500g whole bean | 1kg whole bean. For more information, please visit our  FAQs page.
                         </p>
+                        <h2>About our coffee subscription</h2>
                         <p>
-                            Campos Coffee Capsules are compatible with Nespresso®* original coffee machines and are fully 
-                            recyclable too.  Each pack contains 10 aluminium capsules.
+                        Our Campos Coffee Subscription will deliver coffee right to your door every week, fortnight or month. Become a Coffee of the Month member and you will receive a new Single Origin specialty coffee selected from prime producing regions across the globe.
                         </p>
-                        <img src={img1} className="img-table"/>
+                        <img src={img1}/>
                     </div>
                     <div>
-                        <h2>ABOUT OUR DECAF ESPRESSO BLEND CAPSULES </h2>
+                        <h2>Coffee of the Month</h2>
                         <p>
-                            Who said decaf coffee can’t taste good? We take this coffee very seriously because we love 
-                            delivering a delicious decaf for everyone to enjoy.
+                            As a Coffee of the Month member, you receive a new single origin specialty coffee selected from one of the prime producing regions of the world.
                         </p>
                         <p>
-                            Our decaffeinated specialty coffee blend is marked by notes of cocoa, malt and wild 
-                            berries. This is an elegant espresso with 
-                            the unmistakable prominence of real coffee flavours.
+                            The coffee is roasted fresh on the due date and shipped in the afternoon. Each coffee is analysed by 
+                            the Cupping Crew at our roastery. The coffee arrives with a write-up on the farm.
                         </p>
-                        <img src={img2}/>
+                        <p>
+                            Often these are high ranked auction lots from the Cup of Excellence competitions or exclusive micro-lots from prestigious farms. Whatever you receive, we make sure what we 
+                            give to the club is well researched, well tested and well worth your while!
+                        </p>
                     </div>
                     <div>
-                        <h2>ABOUT OUR RECYCLING PROGRAM </h2>
+                        <h2>Campos Superior Blend</h2>
                         <p>
-                            Our Campos coffee capsules are made from aluminium which 
-                            means they can be recycled. We’ve partnered with TerraCycle® to create a 
-                            recycling program that is not only easy, but free! 
+                        Our award-winning blend used in all our espressos. We’re tasting beautiful sweet red fruit with caramels and chocolates. For us, it’s not just a blend – it is a project
                         </p>
+                    </div>
+                    <div>
+                        <h2>Blade Runner Blend</h2>
                         <p>
-                            All you need to do is collect your used coffee capsules and when you’re ready, send them in.  
+                            Very bright as an espresso while also light enough to be delicious as a filter/ plunger coffee, this is a high-acid coffee much like you would find in many 
+                            leading coffee bars in Norway, Sweden and Denmark.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Dark City Blend</h2>
+                        <p>
+                            One of our darker roasts with a kick. It blends sweet chocolate and forest fruits. Refined and handsome. 
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Roma Espresso Blend</h2>
+                        <p>
+                            Our darkest roast, Southern Italian style. A chocolatey, full rich cup. If you want a powerful flavour then this is the one. Big cocoa flavours, perfect with milk.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Organic Espresso Blend</h2>
+                        <p>
+                            A crisp fruity blend of carefully selected coffee beans from Certified Organic farms. Well rounded with a sweet red fruit finish. 
                         </p>
                     </div>
                 </div>
@@ -130,4 +145,4 @@ const ItemExplorerFor = () => {
     )
 }
 
-export default ItemExplorerFor
+export default ItemRangeMapperWon

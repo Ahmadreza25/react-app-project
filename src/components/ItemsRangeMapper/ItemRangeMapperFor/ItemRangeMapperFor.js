@@ -1,29 +1,27 @@
 import React from "react";
-import { productData } from "../../Styler/ProductExplorer/ProductExplorer";
+import { DataRangeMapper } from "../../../data/DataRangeMapper";
 import { useParams } from "react-router-dom";
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
-import img1 from "../../../images/img-for/img1.webp"
-import img2 from "../../../images/img-for/img2.png"
-import "./ItemExplorerFor.css"
+import "./ItemRangeMapperFor.css"
 
 
-const ItemExplorerFor = () => {
+const ItemRangeMapperFor = () => {
     const {id = 4} = useParams()
-    const item = productData.find(p => p.id === parseInt(id))
+    const item = DataRangeMapper.find(p => p.id === parseInt(id))
     return(
         <div>
-            <div className="div__item_for">
-                <div className="div-main__item4">
-                    <div className="img-item-4">
+            <div className="div-item-4">
+                <div className="div-main-item4">
+                    <div className="img-item-for">
                         <img src={item.image}/>
                     </div>
-                    <div className="factor-item4">
-                        <div className="div_main__factor4">
+                    <div className="factor-item-4">
+                        <div className="div-main-factor4">
                             <div className="div-capsules">
-                                <h3>
+                                <h2>
                                 Capsules
-                                </h3>
+                                </h2>
                                 <h1>
                                     {item.title}
                                 </h1>
@@ -85,44 +83,41 @@ const ItemExplorerFor = () => {
                         </div>
                     </div>
                 </div>
-                <div className="title-item-4">
+                <div className="title-item-for">
                     <div>
-                        <h2>ABOUT CAMPOS CAPSULES</h2>
                         <p>
-                            Using decades of sourcing and roasting experience, our coffee crew have recreated the distinctive 
-                            taste of Campos into a range of convenient capsules to stand above the rest. Our aluminium coffee 
-                            capsules are designed to perfectly capture the flavour profile and fresh aroma of our coffees 
-                            to ensure a superior taste, every time. 
+                            This coffee is available in 250g ground OR whole bean | 500g whole bean | 1kg whole bean. 
+                            For more information, please visit our FAQs page.
+                        </p>
+                        <h2>ABOUT THIS DECAF COFFEE</h2>
+                        <p>
+                            Who said decaf can’t taste good? We love delivering a great decaf 
+                            and we take this product very seriously by adopting a fully natural 
+                            process. The caffeine is gently removed by using a derivative from sugar cane mixed with 
+                            mountain water to deliver the very best taste in every cup.
                         </p>
                         <p>
-                            Campos Coffee Capsules are compatible with Nespresso®* original coffee machines and are fully 
-                            recyclable too.  Each pack contains 10 aluminium capsules.
+                            Chocolatey goodness with milk.  Enjoyed black, you’ll have real coffee flavours with caramelly sweetness too.
                         </p>
-                        <img src={img1} className="img-table"/>
                     </div>
                     <div>
-                        <h2>ABOUT OUR DECAF ESPRESSO BLEND CAPSULES </h2>
-                        <p>
-                            Who said decaf coffee can’t taste good? We take this coffee very seriously because we love 
-                            delivering a delicious decaf for everyone to enjoy.
-                        </p>
-                        <p>
-                            Our decaffeinated specialty coffee blend is marked by notes of cocoa, malt and wild 
-                            berries. This is an elegant espresso with 
-                            the unmistakable prominence of real coffee flavours.
-                        </p>
-                        <img src={img2}/>
-                    </div>
-                    <div>
-                        <h2>ABOUT OUR RECYCLING PROGRAM </h2>
-                        <p>
-                            Our Campos coffee capsules are made from aluminium which 
-                            means they can be recycled. We’ve partnered with TerraCycle® to create a 
-                            recycling program that is not only easy, but free! 
-                        </p>
-                        <p>
-                            All you need to do is collect your used coffee capsules and when you’re ready, send them in.  
-                        </p>
+                        <h2>INFORMATION</h2>
+                        <div>
+                            <b>Country</b>
+                            <p>Colombia, Guatemala, Ethiopia</p>
+                        </div>
+                        <div>
+                            <b>Processing</b>
+                            <p>The caffeine is gently removed by using a derivative from sugar cane mixed with mountain water.</p>
+                        </div>
+                        <div>
+                            <b>Tasting Notes</b>
+                            <p>Syrupy & Bold. Sweet like Malt Chocolate. Flavours like Real Coffee</p>
+                        </div>
+                        <div>
+                            <b>Roast</b>
+                            <p>Portland Roast</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -130,4 +125,4 @@ const ItemExplorerFor = () => {
     )
 }
 
-export default ItemExplorerFor
+export default ItemRangeMapperFor

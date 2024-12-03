@@ -87,7 +87,7 @@ const ItemExplorerWon = () => {
                 </div>
                 <div className="title-item-1">
                     <div>
-                        <b>ABOUT CAMPOS CAPSULES </b>
+                        <h2>ABOUT CAMPOS CAPSULES </h2>
                         <p>
                             Using decades of sourcing and roasting experience, our coffee crew have recreated the 
                             distinctive taste of Campos into a range of convenient capsules to stand above the rest. 
@@ -103,9 +103,9 @@ const ItemExplorerWon = () => {
                         <img src={img1} className="img-table"/>
                     </div>
                     <div>
-                        <b>
+                        <h2>
                             ABOUT OUR SUPERIOR BLEND CAPSULES
-                        </b>
+                        </h2>
                         <p>
                             If you have ordered a cup of Campos coffee in our famous green cup, then you’ve tasted our Campos Superior blend. Campos Superior is our signature, quintessential specialty coffee café blend. 
                         </p>
@@ -123,9 +123,9 @@ const ItemExplorerWon = () => {
                         <img src={img2}/>
                     </div>
                     <div>
-                        <b>
+                        <h2>
                         ABOUT OUR RECYCLING PROGRAM 
-                        </b>
+                        </h2>
                         <p>
                             Our Campos coffee capsules are made from aluminium which means they can be recycled. We’ve partnered with TerraCycle® to create a 
                             recycling program that is not only easy, but free! 

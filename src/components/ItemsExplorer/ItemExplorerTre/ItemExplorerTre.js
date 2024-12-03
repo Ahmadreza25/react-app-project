@@ -87,7 +87,7 @@ const ItemExplorerTre = () => {
                 </div>
                 <div className="title-item-3">
                     <div>
-                        <b>ABOUT CAMPOS CAPSULES </b>
+                        <h2>ABOUT CAMPOS CAPSULES </h2>
                         <p>
                             Using decades of sourcing and roasting experience, our coffee crew have recreated the 
                             distinctive taste of Campos into a range of convenient capsules to stand above the rest. 
@@ -100,7 +100,7 @@ const ItemExplorerTre = () => {
                         <img src={img1} className="img-table"/>
                     </div>
                     <div>
-                        <b>ABOUT OUR CHAPEL ST BLEND CAPSULES </b>
+                        <h2>ABOUT OUR CHAPEL ST BLEND CAPSULES </h2>
                         <p>
                         Campos Chapel St blend will delight you with a fusion of vibrant flavours, just like the iconic Melbourne precinct it was named after. 
                         </p>
@@ -115,7 +115,7 @@ const ItemExplorerTre = () => {
                         <img src={img2}/>
                     </div>
                     <div>
-                        <b>ABOUT OUR RECYCLING PROGRAM </b>
+                        <h2>ABOUT OUR RECYCLING PROGRAM </h2>
                         <p>
                             Our Campos coffee capsules are made from aluminium which means 
                             they can be recycled. We’ve partnered with TerraCycle® 

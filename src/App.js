@@ -22,6 +22,11 @@ import ItemRangeMapperWon from "./components/ItemsRangeMapper/ItemRangeMapperWon
 import ItemRangeMapperTo from "./components/ItemsRangeMapper/ItemRangeMapperTo/ItemRangeMapperTo";
 import ItemRangeMapperTre from "./components/ItemsRangeMapper/ItemRangeMapperTre/ItemRangeMapperTre";
 import ItemRangeMapperFor from "./components/ItemsRangeMapper/ItemRangeMapperFor/ItemRangeMapperFor";
+import ItemCoffeeEquipmentWon from "./components/ItemsCoffeeEquipment/ItemCoffeeEquipmentWon/ItemCoffeeEquipmentwon";
+import ItemCoffeeEquipmentTo from "./components/ItemsCoffeeEquipment/ItemCoffeeEquipmentTo/ItemCoffeeEquipmentTo";
+import ItemCoffeeEquipmentTre from "./components/ItemsCoffeeEquipment/ItemCoffeeEquipmentTre/ItemCoffeeEquipmentTre";
+import ItemCoffeeEquipmentFor from "./components/ItemsCoffeeEquipment/ItemCoffeeEquipmentFor/ItemCoffeeEquipmentFor";
+import ItemCoffeeEquipmentFayw from "./components/ItemsCoffeeEquipment/ItemCoffeeEquipmentFayw/ItemCoffeeEquipmentFayw";
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 
 const App = () => {
@@ -54,6 +59,13 @@ const App = () => {
         <Route path="/product2/2" element={<ItemRangeMapperTo />}/>
         <Route path="/product2/3" element={<ItemRangeMapperTre />}/>
         <Route path="/product2/4" element={<ItemRangeMapperFor />}/>
+      </Routes>
+      <Routes>
+        <Route path="/product3/1" element={<ItemCoffeeEquipmentWon />}/>
+        <Route path="/product3/2" element={<ItemCoffeeEquipmentTo />}/>
+        <Route path="/product3/3" element={<ItemCoffeeEquipmentTre />}/>
+        <Route path="/product3/4" element={<ItemCoffeeEquipmentFor />}/>
+        <Route path="/product3/5" element={<ItemCoffeeEquipmentFayw />}/>
       </Routes>
       <Footer />
     </Router>

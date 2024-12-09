@@ -1,7 +1,7 @@
 import img1 from "../images/img-merchandise/img1.png"
 import img2 from "../images/img-merchandise/img2.png"
 import img3 from "../images/img-merchandise/img3.png"
-import img4 from "../images/img-merchandise/img5.png"
+import img4 from "../images/img-merchandise/img4.png"
 import img5 from "../images/img-merchandise/img6.png"
 import img6 from "../images/img-merchandise/img7.png"
 import img7 from "../images/img-merchandise/img8.png"
@@ -50,7 +50,7 @@ export const DataMerchandise = [
         id:6,
         img: img6,
         price:"$40.00",
-        title:"Campos x In The Roundhouse Coasters - Set Of 4",
+        title:"Campos Online Gift Card",
         explanations:"Introducing the exquisite collaboration between Campos and In The Roundhouse - Elevate your table setting with this set of four coasters, each meticulously crafted with care and precision.",
     },
     {
@@ -64,7 +64,7 @@ export const DataMerchandise = [
         id:8,
         img:img8,
         price:"$50.00",
-        title:"Campos Online Gift Card",
+        title:"Campos x In The Roundhouse Coasters - Set Of 4",
         explanations: "Take the hassle out of choosing a gift by sending a Campos Gift Card.",
     },
     {

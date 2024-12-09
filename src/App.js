@@ -13,20 +13,33 @@ import CoffeeTools from "./components/CoffeeTools/CoffeeTools";
 import ProductRange from "./components/ProductRange/ProductRange";
 import LoginPage from "./components/LoginPage/LoginPage";
 import BrewCollection from "./components/BrewCollection/BrewCollection";
+
 import ItemExplorerWon from "./components/ItemsExplorer/ItemExplorerWon/ItemExplorerWon";
 import ItemExplorerTo from "./components/ItemsExplorer/ItemExplorerTo/ItemExplorerTo";
 import ItemExplorerTre from "./components/ItemsExplorer/ItemExplorerTre/ItemExplorerTre";
 import ItemExplorerFor from "./components/ItemsExplorer/ItemExplorerFor/ItemExplorerFor";
 import ItemExplorerFayw from "./components/ItemsExplorer/ItemExplorerFayw/ItemExplorerFayw";
+
 import ItemRangeMapperWon from "./components/ItemsRangeMapper/ItemRangeMapperWon/ItemRangeMapperWon";
 import ItemRangeMapperTo from "./components/ItemsRangeMapper/ItemRangeMapperTo/ItemRangeMapperTo";
 import ItemRangeMapperTre from "./components/ItemsRangeMapper/ItemRangeMapperTre/ItemRangeMapperTre";
 import ItemRangeMapperFor from "./components/ItemsRangeMapper/ItemRangeMapperFor/ItemRangeMapperFor";
+
 import ItemCoffeeEquipmentWon from "./components/ItemsCoffeeEquipment/ItemCoffeeEquipmentWon/ItemCoffeeEquipmentwon";
 import ItemCoffeeEquipmentTo from "./components/ItemsCoffeeEquipment/ItemCoffeeEquipmentTo/ItemCoffeeEquipmentTo";
 import ItemCoffeeEquipmentTre from "./components/ItemsCoffeeEquipment/ItemCoffeeEquipmentTre/ItemCoffeeEquipmentTre";
 import ItemCoffeeEquipmentFor from "./components/ItemsCoffeeEquipment/ItemCoffeeEquipmentFor/ItemCoffeeEquipmentFor";
 import ItemCoffeeEquipmentFayw from "./components/ItemsCoffeeEquipment/ItemCoffeeEquipmentFayw/ItemCoffeeEquipmentFayw";
+
+import ItemMerchandiseWon from "./components/ItemMerchandise/ItemMerchandiseWon/ItemMerchandiseWon";
+import ItemMerchandiseTo from "./components/ItemMerchandise/ItemMerchandiseTo/ItemMerchandiseTo";
+import ItemMerchandiseTre from "./components/ItemMerchandise/ItemMerchandiseTre/ItemMerchandiseTre";
+import ItemMerchandiseFor from "./components/ItemMerchandise/ItemMerchandiseFor/ItemMerchandiseFor";
+import ItemMerchandiseFive from "./components/ItemMerchandise/ItemMerchandiseFive/ItemMerchandiseFive"
+import ItemMerchandiseSex from "./components/ItemMerchandise/ItemMerchandiseSex/ItemMerchandiseSex"
+import ItemMerchandiseSeven from "./components/ItemMerchandise/ItemMerchandiseSeven/ItemMerchandiseSeven"
+import ItemMerchandiseEight from "./components/ItemMerchandise/ItemMerchandiseEight/ItemMerchandiseEight";
+
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 
 const App = () => {
@@ -66,6 +79,16 @@ const App = () => {
         <Route path="/product3/3" element={<ItemCoffeeEquipmentTre />}/>
         <Route path="/product3/4" element={<ItemCoffeeEquipmentFor />}/>
         <Route path="/product3/5" element={<ItemCoffeeEquipmentFayw />}/>
+      </Routes>
+      <Routes>
+        <Route path="/product/Merchandise/1" element={<ItemMerchandiseWon />}/>
+        <Route path="/product/Merchandise/2" element={<ItemMerchandiseTo />}/>
+        <Route path="/product/Merchandise/3" element={<ItemMerchandiseTre />}/>
+        <Route path="/product/Merchandise/4" element={<ItemMerchandiseFor />}/>
+        <Route path="/product/Merchandise/5" element={<ItemMerchandiseFive />}/>
+        <Route path="/product/Merchandise/6" element={<ItemMerchandiseSex />}/>
+        <Route path="/product/Merchandise/7" element={<ItemMerchandiseSeven />}/>
+        <Route path="/product/Merchandise/8" element={<ItemMerchandiseEight />}/>
       </Routes>
       <Footer />
     </Router>

@@ -40,6 +40,29 @@ import ItemMerchandiseSex from "./components/ItemMerchandise/ItemMerchandiseSex/
 import ItemMerchandiseSeven from "./components/ItemMerchandise/ItemMerchandiseSeven/ItemMerchandiseSeven"
 import ItemMerchandiseEight from "./components/ItemMerchandise/ItemMerchandiseEight/ItemMerchandiseEight";
 
+import ItemCoffeeToolsOne from "./components/ItemsCoffeeTools/ItemCoffeeToolsOne/ItemCoffeeToolsOne"
+import ItemCoffeeToolsTwo from "./components/ItemsCoffeeTools/ItemCoffeeToolsTwo/ItemCoffeeToolsTwo";
+import ItemCoffeeToolsThree from "./components/ItemsCoffeeTools/ItemCoffeeToolsThree/ItemCoffeeToolsThree";
+import ItemCoffeeToolsFour from "./components/ItemsCoffeeTools/ItemCoffeeToolsFuor/ItemCoffeeToolsFuor";
+import ItemCoffeeToolsFive from "./components/ItemsCoffeeTools/ItemCoffeeToolsFive/ItemCoffeeToolsFive";
+import ItemCoffeeToolsSex from "./components/ItemsCoffeeTools/ItemCoffeeToolsSex/ItemCoffeeToolsSex";
+import ItemCoffeeToolsSeven from "./components/ItemsCoffeeTools/ItemCoffeeToolsSeven/ItemCoffeeToolsSeven";
+import ItemCoffeeToolsEight from "./components/ItemsCoffeeTools/ItemCoffeeToolsEight/ItemCoffeeToolsEight";
+import ItemCoffeeToolsNine from "./components/ItemsCoffeeTools/ItemCoffeeToolsNine/ItemCoffeeToolsNine";
+import ItemCoffeeToolsTen from "./components/ItemsCoffeeTools/ItemCoffeeToolsTen/ItemCoffeeToolsTen";
+import ItemCoffeeToolsEleven from "./components/ItemsCoffeeTools/ItemCoffeeToolsEleven/ItemCoffeeToolsEleven";
+import ItemCoffeeToolsTwelve from "./components/ItemsCoffeeTools/ItemCoffeeToolsTwelve/ItemCoffeeToolsTwelve";
+import ItemCoffeeToolsThirTeen from "./components/ItemsCoffeeTools/ItemCoffeeToolsThirTeen/ItemCoffeeToolsThirTeen";
+import ItemCoffeeToolsFourTeen from "./components/ItemsCoffeeTools/ItemCoffeeToolsFourTeen/ItemCoffeeToolsFourTeen";
+import ItemCoffeeToolsFifTeen from "./components/ItemsCoffeeTools/ItemCoffeeToolsFifTeen/ItemCoffeeToolsFifTeen";
+import ItemCoffeeToolsSexTeen from "./components/ItemsCoffeeTools/ItemCoffeeToolsSexTeen/ItemCoffeeToolsSexTeen";
+import ItemCoffeeToolsSevenTeen from "./components/ItemsCoffeeTools/ItemCoffeeToolsSevenTeen/ItemCoffeeToolsSevenTeen";
+import ItemCoffeeToolsEighTeen from "./components/ItemsCoffeeTools/ItemCoffeeToolsEighTeen/ItemCoffeeToolsEighTeen";
+import ItemCoffeeToolsNineTeen from "./components/ItemsCoffeeTools/ItemCoffeeToolsNineTeen/ItemCoffeeToolsNineTeen";
+import ItemCoffeeToolsTwenty from "./components/ItemsCoffeeTools/ItemCoffeeToolsTwenty/ItemCoffeeToolsTwenty";
+import ItemCoffeeToolsTwentyOne from "./components/ItemsCoffeeTools/ItemCoffeeToolsTwentyOne/ItemCoffeeToolsTwentyOne";
+import ItemCoffeeToolsTwentyTwe from "./components/ItemsCoffeeTools/ItemCoffeeToolsTwentyTwe/ItemCoffeeToolsTwentyTwe";
+
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 
 const App = () => {
@@ -89,6 +112,30 @@ const App = () => {
         <Route path="/product/Merchandise/6" element={<ItemMerchandiseSex />}/>
         <Route path="/product/Merchandise/7" element={<ItemMerchandiseSeven />}/>
         <Route path="/product/Merchandise/8" element={<ItemMerchandiseEight />}/>
+      </Routes>
+      <Routes>
+        <Route path="/product/coffeetools/1" element={<ItemCoffeeToolsOne />}/>
+        <Route path="/product/coffeetools/2" element={<ItemCoffeeToolsTwo />}/>
+        <Route path="/product/coffeetools/3" element={<ItemCoffeeToolsThree />}/>
+        <Route path="/product/coffeetools/4" element={<ItemCoffeeToolsFour />}/>
+        <Route path="/product/coffeetools/5" element={<ItemCoffeeToolsFive />}/>
+        <Route path="/product/coffeetools/6" element={<ItemCoffeeToolsSex />}/>
+        <Route path="/product/coffeetools/7" element={<ItemCoffeeToolsSeven />}/>
+        <Route path="/product/coffeetools/8" element={<ItemCoffeeToolsEight />}/>
+        <Route path="/product/coffeetools/9" element={<ItemCoffeeToolsNine />}/>
+        <Route path="/product/coffeetools/10" element={<ItemCoffeeToolsTen />}/>
+        <Route path="/product/coffeetools/11" element={<ItemCoffeeToolsEleven />}/>
+        <Route path="/product/coffeetools/12" element={<ItemCoffeeToolsTwelve />}/>
+        <Route path="/product/coffeetools/13" element={<ItemCoffeeToolsThirTeen />}/>
+        <Route path="/product/coffeetools/14" element={<ItemCoffeeToolsFourTeen />}/>
+        <Route path="/product/coffeetools/15" element={<ItemCoffeeToolsFifTeen />}/>
+        <Route path="/product/coffeetools/16" element={<ItemCoffeeToolsSexTeen />}/>
+        <Route path="/product/coffeetools/17" element={<ItemCoffeeToolsSevenTeen />}/>
+        <Route path="/product/coffeetools/18" element={<ItemCoffeeToolsEighTeen />}/>
+        <Route path="/product/coffeetools/19" element={<ItemCoffeeToolsNineTeen />}/>
+        <Route path="/product/coffeetools/20" element={<ItemCoffeeToolsTwenty />}/>
+        <Route path="/product/coffeetools/21" element={<ItemCoffeeToolsTwentyOne />}/>
+        <Route path="/product/coffeetools/22" element={<ItemCoffeeToolsTwentyTwe />}/>
       </Routes>
       <Footer />
     </Router>

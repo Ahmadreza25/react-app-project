@@ -3,6 +3,7 @@ import icon1 from "../../images/img-merchandise/icon-1.png"
 import icon2 from "../../images/img-merchandise/icon-2.png"
 import { DataCoffeetools } from "../../data/DataCoffeetools";
 import "./CoffeeTools.css"
+import { Link } from "react-router-dom";
 
 
 const CoffeeTools = () => {
@@ -33,20 +34,22 @@ const CoffeeTools = () => {
                         <div className="coffee-item-wrapper">
                             {
                                 DataCoffeetools.map((item , index) => (
-                                    <div className="coffee-item">
-                                        <div className="coffee-image-container">
-                                            <div className={`coffee-image coffee-image${index + 1}`}>
-                                                <img src={item.img} alt={item.title} />
+                                    <Link to={`/product/coffeetools/${item.id}`} className="link">
+                                        <div className="coffee-item">
+                                            <div className="coffee-image-container">
+                                                <div className={`coffee-image coffee-image${index + 1}`}>
+                                                    <img src={item.img} alt={item.title} />
+                                                </div>
+                                            </div>
+                                            <div className="coffee_title_items">
+                                                <div>
+                                                    FROM: <b>{item.price}</b>
+                                                </div>
+                                                <h4>{item.title}</h4>
+                                                <p>{item.explanations}</p>
                                             </div>
                                         </div>
-                                        <div className="coffee_title_items">
-                                            <div>
-                                                FROM: <b>{item.price}</b>
-                                            </div>
-                                            <h4>{item.title}</h4>
-                                            <p>{item.explanations}</p>
-                                        </div>
-                                    </div>
+                                    </Link>
                                 ))
                             }
                         </div>

@@ -97,10 +97,13 @@
 .product-image1:hover,
 .product-image3:hover,
 .product-image8:hover,
+.product-image9:hover,
 .product-image12:hover,
-.product-image14:hover,
+.product-image13:hover,
+.product-image15:hover,
 .product-image17:hover,
 .product-image19:hover,
+.product-image20:hover,
 .product-image23:hover,
 .product-image24:hover,
 .product-image25:hover,
@@ -152,21 +155,21 @@
     background-color: rgb(135, 145, 170);
 }
 .product-image6:hover,
-.product-image16:hover{
+.product-image16:hover,
+.product-image12:hover{
     background-color: rgb(223, 142, 91);
 }
 .product-image7:hover{
     background-color: rgb(100, 88, 122);
 }
-.product-image9:hover,
-.product-image13:hover,
+.product-image10:hover,
 .product-image21:hover,
 .product-image66:hover,
 .product-image87:hover,
 .product-image88:hover{
     background-color:rgb(123, 41, 43) ;
 }
-.product-image15:hover,
+.product-image14:hover,
 .product-image18:hover,
 .product-image35:hover,
 .product-image71:hover,
@@ -213,7 +216,8 @@
 }
 .product-image53:hover,
 .product-image54:hover,
-.product-image80:hover{
+.product-image80:hover,
+.product-image40:hover{
     background-color: rgb(219, 190, 154);
 }
 .product-image69:hover,

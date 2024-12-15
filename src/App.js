@@ -63,6 +63,11 @@ import ItemCoffeeToolsTwenty from "./components/ItemsCoffeeTools/ItemCoffeeTools
 import ItemCoffeeToolsTwentyOne from "./components/ItemsCoffeeTools/ItemCoffeeToolsTwentyOne/ItemCoffeeToolsTwentyOne";
 import ItemCoffeeToolsTwentyTwe from "./components/ItemsCoffeeTools/ItemCoffeeToolsTwentyTwe/ItemCoffeeToolsTwentyTwe";
 
+import ItemProductRangeOne from "./components/ItemsProductRange/ItemProductRangeOne/ItemProductRangeOne"
+import ItemProductRangeTwo from "./components/ItemsProductRange/ItemProductRangeTwo/ItemProductRangeTwo";
+import ItemProductRangeThree from "./components/ItemsProductRange/ItemProductRangeThree/ItemProductRangeThree";
+import ItemProductRangeFour from "./components/ItemsProductRange/ItemsProductRangeFour/ItemsProductRangeFour";
+
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 
 const App = () => {
@@ -136,6 +141,12 @@ const App = () => {
         <Route path="/product/coffeetools/20" element={<ItemCoffeeToolsTwenty />}/>
         <Route path="/product/coffeetools/21" element={<ItemCoffeeToolsTwentyOne />}/>
         <Route path="/product/coffeetools/22" element={<ItemCoffeeToolsTwentyTwe />}/>
+      </Routes>
+      <Routes>
+        <Route path="/product/productrange/1" element={<ItemProductRangeOne />}/>
+        <Route path="/product/productrange/2" element={<ItemProductRangeTwo />}/>
+        <Route path="/product/productrange/3" element={<ItemProductRangeThree />}/>
+        <Route path="/product/productrange/4" element={<ItemProductRangeFour />}/>
       </Routes>
       <Footer />
     </Router>

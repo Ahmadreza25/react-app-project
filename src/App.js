@@ -67,6 +67,28 @@ import ItemProductRangeOne from "./components/ItemsProductRange/ItemProductRange
 import ItemProductRangeTwo from "./components/ItemsProductRange/ItemProductRangeTwo/ItemProductRangeTwo";
 import ItemProductRangeThree from "./components/ItemsProductRange/ItemProductRangeThree/ItemProductRangeThree";
 import ItemProductRangeFour from "./components/ItemsProductRange/ItemsProductRangeFour/ItemsProductRangeFour";
+import ItemsProductRangeFive from "./components/ItemsProductRange/ItemsProductRangeFive/ItemsProductRangeFive";
+import ItemsProductRangeSix from "./components/ItemsProductRange/ItemsProductRangeSix/ItemsProductRangeSix";
+import ItemsProductRangeSeven from "./components/ItemsProductRange/ItemsProductRangeSeven/ItemsProductRangeSeven";
+import ItemsProductRangeEight from "./components/ItemsProductRange/ItemsProductRangeEight/ItemsProductRangeEight";
+import ItemsProductRangeNine from "./components/ItemsProductRange/ItemsProductRangeNine/ItemsProductRangeNine";
+import ItemsProductRangeTen from "./components/ItemsProductRange/ItemsProductRangeTen/ItemsProductRangeTen";
+import ItemsProductRangeEleven from "./components/ItemsProductRange/ItemsProductRangeEleven/ItemsProductRangeEleven";
+import ItemsProductRangeTwelve from "./components/ItemsProductRange/ItemsProductRangeTwelve/ItemsProductRangeTwelve";
+import ItemsProductRangeThirteen from "./components/ItemsProductRange/ItemsProductRangeThirteen/ItemsProductRangeThirteen";
+import ItemsProductRangeFourteen from "./components/ItemsProductRange/ItemsProductRangeFourteen/ItemsProductRangeFourteen";
+import ItemsProductRangeFifteen from "./components/ItemsProductRange/ItemsProductRangeFifteen/ItemsProductRangeFifteen";
+import ItemsProductRangeSixteen from "./components/ItemsProductRange/ItemsProductRangeSixteen/ItemsProductRangeSixteen";
+import ItemsProductRangeTwenty from "./components/ItemsProductRange/ItemsProductRangeTwenty/ItemsProductRangeTwenty";
+import ItemsProductRangeTwentyOne from "./components/ItemsProductRange/ItemsProductRangeTwentyOne/ItemsProductRangeTwentyOne";
+import ItemsProductRangeTwentyTwo from "./components/ItemsProductRange/ItemsProductRangeTwentyTwo/ItemsProductRangeTwentyTwo";
+import ItemsProductRangeTwentyThree from "./components/ItemsProductRange/ItemsProductRangeTwentyThree/ItemsProductRangeTwentyThree";
+import ItemsProductRangeTwentyFour from "./components/ItemsProductRange/ItemsProductRangeTwentyFour/ItemsProductRangeTwentyFour";
+import ItemsProductRangeTwentyFive from "./components/ItemsProductRange/ItemsProductRangeTwentyFive/ItemsProductRangeTwentyFive";
+import ItemsProductRangeTwentySix from "./components/ItemsProductRange/ItemsProductRangeTwentySix/ItemsProductRangeTwentySix";
+import ItemsProductRangeTwentySeven from "./components/ItemsProductRange/ItemsProductRangeTwentySeven/ItemsProductRangeTwentySeven";
+import ItemsProductRangeTwentyEight from "./components/ItemsProductRange/ItemsProductRangeTwentyEight/ItemsProductRangeTwentyEight";
+import ItemsProductRangeTwentyNine from "./components/ItemsProductRange/ItemsProductRangeTwentyNine/ItemsProductRangeTwentyNine";
 
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 
@@ -147,6 +169,31 @@ const App = () => {
         <Route path="/product/productrange/2" element={<ItemProductRangeTwo />}/>
         <Route path="/product/productrange/3" element={<ItemProductRangeThree />}/>
         <Route path="/product/productrange/4" element={<ItemProductRangeFour />}/>
+        <Route path="/product/productrange/5" element={<ItemsProductRangeFive />}/>
+        <Route path="/product/productrange/6" element={<ItemsProductRangeSix />}/>
+        <Route path="/product/productrange/7" element={<ItemsProductRangeSeven />}/>
+        <Route path="/product/productrange/8" element={<ItemsProductRangeEight />}/>
+        <Route path="/product/productrange/11" element={<ItemsProductRangeNine />}/>
+        <Route path="/product/productrange/12" element={<ItemsProductRangeTen />}/>
+        <Route path="/product/productrange/14" element={<ItemsProductRangeEleven />}/>
+        <Route path="/product/productrange/15" element={<ItemsProductRangeTwelve />}/>
+        <Route path="/product/productrange/16" element={<ItemsProductRangeThirteen />}/>
+        <Route path="/product/productrange/17" element={<ItemsProductRangeFourteen />}/>
+        <Route path="/product/productrange/18" element={<ItemsProductRangeFifteen />}/>
+        <Route path="/product/productrange/19" element={<ItemsProductRangeSixteen />}/>
+        <Route path="/product/productrange/20" element={<ItemsProductRangeTwenty />}/>
+        <Route path="/product/productrange/21" element={<ItemsProductRangeTwentyOne />}/>
+        <Route path="/product/productrange/22" element={<ItemsProductRangeTwentyTwo />}/>
+        <Route path="/product/productrange/23" element={<ItemsProductRangeTwentyThree />}/>
+        <Route path="/product/productrange/24" element={<ItemsProductRangeTwentyFour />}/>
+        <Route path="/product/productrange/25" element={<ItemsProductRangeTwentyFive />}/>
+        <Route path="/product/productrange/26" element={<ItemsProductRangeTwentySix />}/>
+        <Route path="/product/productrange/27" element={<ItemsProductRangeTwentySeven />}/>
+        <Route path="/product/productrange/28" element={<ItemsProductRangeTwentyEight />}/>
+        <Route path="/product/productrange/29" element={<ItemsProductRangeTwentyNine />}/>
+
+
+        
       </Routes>
       <Footer />
     </Router>

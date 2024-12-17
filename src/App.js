@@ -89,6 +89,10 @@ import ItemsProductRangeTwentySix from "./components/ItemsProductRange/ItemsProd
 import ItemsProductRangeTwentySeven from "./components/ItemsProductRange/ItemsProductRangeTwentySeven/ItemsProductRangeTwentySeven";
 import ItemsProductRangeTwentyEight from "./components/ItemsProductRange/ItemsProductRangeTwentyEight/ItemsProductRangeTwentyEight";
 import ItemsProductRangeTwentyNine from "./components/ItemsProductRange/ItemsProductRangeTwentyNine/ItemsProductRangeTwentyNine";
+import ItemsProductRangeThirty from "./components/ItemsProductRange/ItemsProductRangeThirty/ItemsProductRangeThirty";
+import ItemsProductRangeThirtyOne from "./components/ItemsProductRange/ItemsProductRangeThirtyOne/ItemsProductRangeThirtyOne";
+import ItemsProductRangeThirtyTwo from "./components/ItemsProductRange/ItemsProductRangeThirtyTwo/ItemsProductRangeThirtyTwo";
+import ItemsProductRangeThirtyThree from "./components/ItemsProductRange/ItemsProductRangeThirtyThree/ItemsProductRangeThirtyThree";
 
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 
@@ -191,6 +195,12 @@ const App = () => {
         <Route path="/product/productrange/27" element={<ItemsProductRangeTwentySeven />}/>
         <Route path="/product/productrange/28" element={<ItemsProductRangeTwentyEight />}/>
         <Route path="/product/productrange/29" element={<ItemsProductRangeTwentyNine />}/>
+        <Route path="/product/productrange/31" element={<ItemsProductRangeThirty />}/>
+        <Route path="/product/productrange/32" element={<ItemsProductRangeThirtyOne />}/>
+        <Route path="/product/productrange/33" element={<ItemsProductRangeThirtyTwo />}/>
+        <Route path="/product/productrange/34" element={<ItemsProductRangeThirtyThree />}/>
+        
+
 
 
         

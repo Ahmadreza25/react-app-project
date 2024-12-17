@@ -308,9 +308,9 @@ export const  DataProductRange = [
     {
         id:35,
         img:img35,
-        price:"$35.35",
-        title:"Campos KeepCup Clear Plastic",
-        explanations: "Designed and manufactured in Australia",
+        price:"$25.00",
+        title:"Ethiopia Dimtu",
+        explanations: "Peach, Lime, Bergamot, Light & LingeringLight Roast",
     },
     {
         id:36,

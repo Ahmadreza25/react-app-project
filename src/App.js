@@ -93,6 +93,12 @@ import ItemsProductRangeThirty from "./components/ItemsProductRange/ItemsProduct
 import ItemsProductRangeThirtyOne from "./components/ItemsProductRange/ItemsProductRangeThirtyOne/ItemsProductRangeThirtyOne";
 import ItemsProductRangeThirtyTwo from "./components/ItemsProductRange/ItemsProductRangeThirtyTwo/ItemsProductRangeThirtyTwo";
 import ItemsProductRangeThirtyThree from "./components/ItemsProductRange/ItemsProductRangeThirtyThree/ItemsProductRangeThirtyThree";
+import ItemsProductRangeThirtyFour from "./components/ItemsProductRange/ItemsProductRangeThirtyFour/ItemsProductRangeThirtyFour";
+import ItemsProductRangeThirtyFive from "./components/ItemsProductRange/ItemsProductRangeThirtyFive/ItemsProductRangeThirtyFive";
+import ItemsProductRangeThirtySix from "./components/ItemsProductRange/ItemsProductRangeThirtySix/ItemsProductRangeThirtySix";
+import ItemsProductRangeThirtySeven from "./components/ItemsProductRange/ItemsProductRangeThirtySeven/ItemsProductRangeThirtySeven";
+import ItemsProductRangeThirtyEight from "./components/ItemsProductRange/ItemsProductRangeThirtyEight/ItemsProductRangeThirtyEight";
+import ItemsProductRangeThirtyNine from "./components/ItemsProductRange/ItemsProductRangeThirtyNine/ItemsProductRangeThirtyNine";
 
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 
@@ -199,8 +205,13 @@ const App = () => {
         <Route path="/product/productrange/32" element={<ItemsProductRangeThirtyOne />}/>
         <Route path="/product/productrange/33" element={<ItemsProductRangeThirtyTwo />}/>
         <Route path="/product/productrange/34" element={<ItemsProductRangeThirtyThree />}/>
+        <Route path="/product/productrange/35" element={<ItemsProductRangeThirtyFour />}/>
+        <Route path="/product/productrange/36" element={<ItemsProductRangeThirtyFive />}/>
+        <Route path="/product/productrange/37" element={<ItemsProductRangeThirtySix />}/>
+        <Route path="/product/productrange/41" element={<ItemsProductRangeThirtySeven />}/>
+        <Route path="/product/productrange/43" element={<ItemsProductRangeThirtyEight />}/>
+        <Route path="/product/productrange/45" element={<ItemsProductRangeThirtyNine />}/>
         
-
 
 
         

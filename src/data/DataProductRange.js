@@ -439,38 +439,10 @@ export const  DataProductRange = [
         explanations: "Strong & Bold. Sweet like Molasses. Flavours like Chocolate Milk.",
     },
     {
-        id:65,
-        img:img65,
-        price:"$35.35",
-        title:"Bialetti 6 Cup",
-        explanations: "The Bialetti Moka Pot is a classic stovetop espresso maker.",
-    },
-    {
-        id:66,
-        img:img66,
-        price:"$35.35",
-        title:"500g Robert Gordon Bundle",
-        explanations: "Caramelly & Rich Blend. Sweet like Butterscotch. Flavours like Red Fruit & Apricot.",
-    },
-    {
-        id:67,
-        img:img67,
-        price:"$35.35",
-        title:"1kg Dark City Airscape Bundle",
-        explanations: "Balanced & Hearty. Sweet like Belgian Chocolate. Flavours like Forest Fruits.",
-    },
-    {
         id:68,
         img:img68,
         price:"$35.35",
         title:"1kg Roma Airscape Bundle",
-        explanations: "Strong & Bold. Sweet like Molasses. Flavours like Chocolate Milk.",
-    },
-    {
-        id:69,
-        img:img69,
-        price:"$100.85",
-        title:"500g Dark City Airscape Bundle",
         explanations: "Strong & Bold. Sweet like Molasses. Flavours like Chocolate Milk.",
     },
     {
@@ -488,13 +460,6 @@ export const  DataProductRange = [
         explanations: "Strong & Bold. Sweet like Molasses. Flavours like Chocolate Milk.",
     },
     {
-        id:72,
-        img:img72,
-        price:"$6.35",
-        title:"Toddy Cold Brew Coffee System",
-        explanations: "Create cafe-quality cold brew in the comfort of your home",
-    },
-    {
         id:73,
         img:img73,
         price:"$4.00",
@@ -502,25 +467,11 @@ export const  DataProductRange = [
         explanations: "100% recycled co-polyester reusable cup",
     },
     {
-        id:74,
-        img:img74,
-        price:"$35.35",
-        title:"1kg Decaf Airscape Bundle",
-        explanations: "Syrupy & Bold. Sweet like Malt Chocolate. Flavours like Real Coffee.",
-    },
-    {
         id:75,
         img:img75,
         price:"$35.35",
         title:"Ethiopia Dimtu (Filter)",
         explanations: "Peach, Lime, Bergamot, Light and Lingering",
-    },
-    {
-        id:76,
-        img:img76,
-        price:"$45.00",
-        title:"Campos Hoodie",
-        explanations: "A relaxed, oversized hoodie that’s heavy weight to keep you warm during the colder months.",
     },
     {
         id:77,

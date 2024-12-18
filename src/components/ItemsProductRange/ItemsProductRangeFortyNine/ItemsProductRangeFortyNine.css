@@ -1,7 +1,7 @@
-.div-item-ipr-45{
+.div-item-ipr-46{
     padding-top: 65px;
 }
-.factor-item-ipr45{
+.factor-item-ipr46{
     width: 500px;
     height: 650px;
     background-color:#ffffff;
@@ -9,11 +9,11 @@
     border-radius: 15px;
     margin-bottom: -300px;
 }
-.div-main-factor-ipr45{
+.div-main-factor-ipr46{
     margin-left: 80px;
     margin-top: 40px;
 }
-.div-main-item-ipr45{
+.div-main-item-ipr46{
     width: 100%;
     height: 600px;
     display: flex;
@@ -21,9 +21,10 @@
     justify-content: space-around;
     background-color: #898f4b;
 }
-.img-item-fortyfive-ipr img{
-    width: 550px;
-    height: 550px;
+.img-item-fortysix-ipr img{
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
     margin-bottom: -100px;
 }
 .div-capsules h1{

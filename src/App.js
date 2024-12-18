@@ -112,6 +112,16 @@ import ItemsProductRangeFortySix from "./components/ItemsProductRange/ItemsProdu
 import ItemsProductRangeFortySeven from "./components/ItemsProductRange/ItemsProductRangeFortySeven/ItemsProductRangeFortySeven";
 import ItemsProductRangeFortyEight from "./components/ItemsProductRange/ItemsProductRangeFortyEight/ItemsProductRangeFortyEight";
 import ItemsProductRangeFortyNine from "./components/ItemsProductRange/ItemsProductRangeFortyNine/ItemsProductRangeFortyNine";
+import ItemsProductRangeFifty from "./components/ItemsProductRange/ItemsProductRangeFifty/ItemsProductRangeFifty";
+import ItemsProductRangeFiftyOne from "./components/ItemsProductRange/ItemsProductRangeFiftyOne/ItemsProductRangeFiftyOne";
+import ItemsProductRangeFiftyTwo from "./components/ItemsProductRange/ItemsProductRangeFiftyTwo/ItemsProductRangeFiftyTwo";
+import ItemsProductRangeFiftyThree from "./components/ItemsProductRange/ItemsProductRangeFiftyThree/ItemsProductRangeFiftyThree";
+import ItemsProductRangeFiftyFour from "./components/ItemsProductRange/ItemsProductRangeFiftyFour/ItemsProductRangeFiftyFour";
+import ItemsProductRangeFiftyFive from "./components/ItemsProductRange/ItemsProductRangeFiftyFive/ItemsProductRangeFiftyFive";
+import ItemsProductRangeFiftySix from "./components/ItemsProductRange/ItemsProductRangeFiftySix/ItemsProductRangeFiftySix";
+import ItemsProductRangeFiftySeven from "./components/ItemsProductRange/ItemsProductRangeFiftySeven/ItemsProductRangeFiftySeven";
+import ItemsProductRangeFiftyEight from "./components/ItemsProductRange/ItemsProductRangeFiftyEight/ItemsProductRangeFiftyEight";
+import ItemsProductRangeFiftyNine from "./components/ItemsProductRange/ItemsProductRangeFiftyNine/ItemsProductRangeFiftyNine";
 
 
 
@@ -234,6 +244,18 @@ const App = () => {
         <Route path="/product/productrange/59" element={<ItemsProductRangeFortySeven />}/>
         <Route path="/product/productrange/60" element={<ItemsProductRangeFortyEight />}/>
         <Route path="/product/productrange/61" element={<ItemsProductRangeFortyNine />}/>
+        <Route path="/product/productrange/62" element={<ItemsProductRangeFifty />}/>
+        <Route path="/product/productrange/63" element={<ItemsProductRangeFiftyOne />}/>
+        <Route path="/product/productrange/64" element={<ItemsProductRangeFiftyTwo />}/>
+        <Route path="/product/productrange/68" element={<ItemsProductRangeFiftyThree />}/>
+        <Route path="/product/productrange/70" element={<ItemsProductRangeFiftyFour />}/>
+        <Route path="/product/productrange/71" element={<ItemsProductRangeFiftyFive />}/>
+        <Route path="/product/productrange/73" element={<ItemsProductRangeFiftySix />}/>
+        <Route path="/product/productrange/75" element={<ItemsProductRangeFiftySeven />}/>
+        <Route path="/product/productrange/77" element={<ItemsProductRangeFiftyEight />}/>
+        <Route path="/product/productrange/78" element={<ItemsProductRangeFiftyNine />}/>
+        
+        
         
         
 

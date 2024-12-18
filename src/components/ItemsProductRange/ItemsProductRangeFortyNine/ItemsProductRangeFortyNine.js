@@ -53,22 +53,13 @@ const ItemsProductRangeFortyNine = () => {
                   <div>
                     <h2>WHAT'S INCLUDED</h2>
                     <p>
-                      1kg of our Campos Decaf Blend: Choose either beans or your prefered grind.
-
-                      1kg Airscape Canister: Compact canister that expels air to keep coffee fresh, made rom durable galvanised steel.
+                      1 x Bialetti 3 Cup
                     </p>
                   </div>
                   <div>
                     <h2>DESCRIPTION</h2>
                     <p>
-                      Enjoy great-tasting decaf coffee with our 1kg Decaf Blend and Airscape Canister combo. 
-                      Our Decaf Blend, made using a fully natural process to gently remove caffeine, delivers 
-                      chocolatey goodness with milk and caramelly sweetness when enjoyed black. The blend maintains real coffee flavours without the caffeine, ensuring a satisfying experience.
-
-                      Paired with the Airscape Canister, your decaf coffee will stay fresh longer. The canister's 
-                      unique design forces out air, preserving the taste and aroma of your coffee. Made from durable, 
-                      restaurant-grade galvanised steel, it resists staining and odour retention. The BPA-free clear top lid lets you see how much coffee you have left, while the inner lid locks out air with a satisfying "swooshing" noise. 
-                      This bundle is perfect for those who want to enjoy great-tasting decaf coffee without compromising on freshness.
+                      Enjoy classic Italian espresso with the Bialetti 3 Cup. This iconic stovetop espresso maker brews rich, full-bodied coffee with ease, featuring a durable aluminium design and a simple, effective brewing process.
                     </p>
                   </div>
                   <div>

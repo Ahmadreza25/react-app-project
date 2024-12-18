@@ -99,8 +99,21 @@ import ItemsProductRangeThirtySix from "./components/ItemsProductRange/ItemsProd
 import ItemsProductRangeThirtySeven from "./components/ItemsProductRange/ItemsProductRangeThirtySeven/ItemsProductRangeThirtySeven";
 import ItemsProductRangeThirtyEight from "./components/ItemsProductRange/ItemsProductRangeThirtyEight/ItemsProductRangeThirtyEight";
 import ItemsProductRangeThirtyNine from "./components/ItemsProductRange/ItemsProductRangeThirtyNine/ItemsProductRangeThirtyNine";
+import ItemsProductRangeForty from "./components/ItemsProductRange/ItemsProductRangeForty/ItemsProductRangeForty";
+import ItemsProductRangeFortyOne from "./components/ItemsProductRange/ItemsProductRangeFortyOne/ItemsProductRangeFortyOne";
+import ItemsProductRangeFortyTwo from "./components/ItemsProductRange/ItemsProductRangeFortyTwo/ItemsProductRangeFortyTwo";
+import ItemsProductRangeFortyThree from "./components/ItemsProductRange/ItemsProductRangeFortyThree/ItemsProductRangeFortyThree";
+import ItemsProductRangeFortyFour from "./components/ItemsProductRange/ItemsProductRangeFortyFour/ItemsProductRangeFortyFour";
+import ItemsProductRangeFortyFive from "./components/ItemsProductRange/ItemsProductRangeFortyFive/ItemsProductRangeFortyFive";
+
 
 import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
+import ItemsProductRangeFortySix from "./components/ItemsProductRange/ItemsProductRangeFortySix/ItemsProductRangeFortySix";
+import ItemsProductRangeFortySeven from "./components/ItemsProductRange/ItemsProductRangeFortySeven/ItemsProductRangeFortySeven";
+import ItemsProductRangeFortyEight from "./components/ItemsProductRange/ItemsProductRangeFortyEight/ItemsProductRangeFortyEight";
+import ItemsProductRangeFortyNine from "./components/ItemsProductRange/ItemsProductRangeFortyNine/ItemsProductRangeFortyNine";
+
+
 
 const App = () => {
   return(
@@ -211,6 +224,20 @@ const App = () => {
         <Route path="/product/productrange/41" element={<ItemsProductRangeThirtySeven />}/>
         <Route path="/product/productrange/43" element={<ItemsProductRangeThirtyEight />}/>
         <Route path="/product/productrange/45" element={<ItemsProductRangeThirtyNine />}/>
+        <Route path="/product/productrange/46" element={<ItemsProductRangeForty />}/>
+        <Route path="/product/productrange/49" element={<ItemsProductRangeFortyOne />}/>
+        <Route path="/product/productrange/50" element={<ItemsProductRangeFortyTwo />}/>
+        <Route path="/product/productrange/51" element={<ItemsProductRangeFortyThree />}/>
+        <Route path="/product/productrange/52" element={<ItemsProductRangeFortyFour />}/>
+        <Route path="/product/productrange/54" element={<ItemsProductRangeFortyFive />}/>
+        <Route path="/product/productrange/56" element={<ItemsProductRangeFortySix />}/>
+        <Route path="/product/productrange/59" element={<ItemsProductRangeFortySeven />}/>
+        <Route path="/product/productrange/60" element={<ItemsProductRangeFortyEight />}/>
+        <Route path="/product/productrange/61" element={<ItemsProductRangeFortyNine />}/>
+        
+        
+
+        
         
 
 

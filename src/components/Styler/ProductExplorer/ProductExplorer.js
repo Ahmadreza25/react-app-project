@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import img1 from "../../../images/img-cart/img1.png"
 import img2 from "../../../images/img-cart/img2.png"
 import img3 from "../../../images/img-cart/img3.png"
@@ -8,7 +9,8 @@ import "./ProductExplorer.css"
 
 
 
-const productData = [
+
+export const productData = [
     {
         id:1 ,
         image:img1 ,
@@ -48,36 +50,38 @@ const productData = [
 
 
 
-const ProductExplorer = () => {
-    return(
-        <div>
-            <div className="div-main">
-                {
-                  productData.map((item , index) => (
-                        <div className="div-cart-main" key={item.id}>
-                              <div className={`div-img  div-img-${index + 1}`}>
-                                <div>
-                                    <img src={item.image} className="img-cart"/>
-                                </div>    
-                              </div>
-                              <div className="div-main-title">
-                                      <p className="prich">
-                                        FROM{item.price}
-                                      </p>
-                                    <h2 className="title-1">
-                                      {item.title}
-                                    </h2>
-                                    <h5 className="title-2">
-                                      {item.explanation}
-                                    </h5>
-                              </div>
-                        </div>
-                  ))
-                }
-            </div>
-        </div>
-    )
-}
+  const ProductExplorer = () => {
+      return(
+          <div>
+              <div className="div-main">
+                  {
+                    productData.map((item , index) => (
+                        <Link className="link" to={`/product/${item.id}`} key={item.id}>
+                            <div className="div-cart-main">
+                                  <div className={`div-img  div-img-${index + 1}`}>
+                                    <div>
+                                        <img src={item.image} className="img-cart"/>
+                                    </div>    
+                                  </div>
+                                  <div className="div-main-title">
+                                          <p className="prich">
+                                            FROM{item.price}
+                                          </p>
+                                        <h2 className="title-1">
+                                          {item.title}
+                                        </h2>
+                                        <h5 className="title-2">
+                                          {item.explanation}
+                                        </h5>
+                                  </div>
+                            </div>
+                        </Link>
+                    ))
+                  }
+              </div>
+          </div>
+      )
+  }
 
 export default ProductExplorer
 

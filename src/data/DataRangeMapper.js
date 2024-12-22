@@ -1,4 +1,4 @@
-import img1 from "../images/img-cart-2/img-1.png"
+import img1 from "../images/img-merchandise/img1.png"
 import img2 from "../images/img-cart-2/img-2.png"
 import img3 from "../images/img-cart-2/img-3.png"
 import img4 from "../images/img-cart-2/img-4.png"
@@ -7,10 +7,10 @@ import img4 from "../images/img-cart-2/img-4.png"
 export const DataRangeMapper = [
     {
         id:1,
-        price: "$9.50",
-        image: img1,
-        title: "Campos Superior Blend",
-        explanation: "Caramelly & Rich Blend. Sweet like Butterscotch. Flavours like Red Fruit & Apricot.",
+        image:img1 ,
+        price:" $15.95",
+        title:"Campos Superior Blend",
+        explanations: "Caramelly & Rich Blend. Sweet like Butterscotch. Flavours like Red Fruit & Apricot.",
     },
     {
         id:2,

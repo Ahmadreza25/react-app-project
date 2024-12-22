@@ -3,6 +3,7 @@ import { DataMerchandise } from "../../data/DataMerchandise";
 import icon1 from "../../images/img-merchandise/icon-1.png"
 import icon2 from "../../images/img-merchandise/icon-2.png"
 import "./Merchandise.css"
+import { Link } from "react-router-dom";
 
 const Merchandise = () => {
     return(
@@ -34,22 +35,24 @@ const Merchandise = () => {
                         <div className="merchandise-container__div">
                             {
                                 DataMerchandise.map((item, index) => (
-                                    <div className="div-main__items">
-                                        <div className="div-items">
-                                            <div className="div-main__img">
-                                                <div className={`div__img div__img${index + 1} `}>
-                                                    <img src={item.img}/>
+                                    <Link to={`/product/Merchandise/${item.id}`} className="link">
+                                        <div className="div-main__items">
+                                            <div className="div-items">
+                                                <div className="div-main__img">
+                                                    <div className={`div__img div__img${index + 1} `}>
+                                                        <img src={item.img}/>
+                                                    </div>
+                                                </div>
+                                                <div className="product-info-container">
+                                                    <b>FROM:{item.price}</b>
+                                                    <h3>
+                                                        {item.title}
+                                                    </h3>
+                                                    <h5>{item.explanations}</h5>
                                                 </div>
                                             </div>
-                                            <div className="product-info-container">
-                                                <b>FROM:{item.price}</b>
-                                                <h3>
-                                                    {item.title}
-                                                </h3>
-                                                <h5>{item.explanations}</h5>
-                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 ))
                             }
                         </div>

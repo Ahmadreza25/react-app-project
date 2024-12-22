@@ -1,0 +1,48 @@
+.recipemanager-item{
+    width: 100%;
+    height: 2400px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.recipemanager-content {
+    width: 1000px;
+    height: 2200px;
+    background-color: #fff;
+}
+.div-img-recipemanager{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.div-img-recipemanager img {
+    width: 950px;
+    height: 600px;
+}
+.itile-recipemanager{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.itile-recipemanager h2{
+    margin-top: -10px;
+    color: #8b8b8b;
+}
+.itile-recipemanager p{
+    width: 500px;
+    padding: 20px;
+}
+.line-recipemanager{
+    width: 50px;
+    height: 7px;
+    background-color:#8a904c;
+}
+.div-Peaches{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.div-Peaches p {
+    width: 500px;
+    padding: 20px;
+}

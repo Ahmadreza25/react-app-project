@@ -122,6 +122,13 @@ import ItemsProductRangeFiftySix from "./components/ItemsProductRange/ItemsProdu
 import ItemsProductRangeFiftySeven from "./components/ItemsProductRange/ItemsProductRangeFiftySeven/ItemsProductRangeFiftySeven";
 import ItemsProductRangeFiftyEight from "./components/ItemsProductRange/ItemsProductRangeFiftyEight/ItemsProductRangeFiftyEight";
 import ItemsProductRangeFiftyNine from "./components/ItemsProductRange/ItemsProductRangeFiftyNine/ItemsProductRangeFiftyNine";
+import ItemsProductRangeSixty from "./components/ItemsProductRange/ItemsProductRangeSixty/ItemsProductRangeSixty";
+import ItemsProductRangeSixtyOne from "./components/ItemsProductRange/ItemsProductRangeSixtyOne/ItemsProductRangeSixtyOne";
+import ItemsProductRangeSixtyTwo from "./components/ItemsProductRange/ItemsProductRangeSixtyTwo/ItemsProductRangeSixtyTwo";
+import ItemsProductRangeSixtyThree from "./components/ItemsProductRange/ItemsProductRangeSixtyThree/ItemsProductRangeSixtyThree";
+import ItemsProductRangeSixtyFour from "./components/ItemsProductRange/ItemsProductRangeSixtyFour/ItemsProductRangeSixtyFour";
+import ItemsProductRangeSixtyFive from "./components/ItemsProductRange/ItemsProductRangeSixtyFive/ItemsProductRangeSixtyFive";
+import ItemsProductRangeSixtySix from "./components/ItemsProductRange/ItemsProductRangeSixtySix/ItemsProductRangeSixtySix";
 
 
 
@@ -254,16 +261,13 @@ const App = () => {
         <Route path="/product/productrange/75" element={<ItemsProductRangeFiftySeven />}/>
         <Route path="/product/productrange/77" element={<ItemsProductRangeFiftyEight />}/>
         <Route path="/product/productrange/78" element={<ItemsProductRangeFiftyNine />}/>
-        
-        
-        
-        
-
-        
-        
-
-
-        
+        <Route path="/product/productrange/79" element={<ItemsProductRangeSixty />}/>
+        <Route path="/product/productrange/82" element={<ItemsProductRangeSixtyOne />}/>
+        <Route path="/product/productrange/83" element={<ItemsProductRangeSixtyTwo />}/>
+        <Route path="/product/productrange/84" element={<ItemsProductRangeSixtyThree />}/>
+        <Route path="/product/productrange/85" element={<ItemsProductRangeSixtyFour />}/>
+        <Route path="/product/productrange/92" element={<ItemsProductRangeSixtyFive />}/>
+        <Route path="/product/productrange/93" element={<ItemsProductRangeSixtySix />}/>
       </Routes>
       <Footer />
     </Router>

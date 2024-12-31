@@ -1,6 +1,7 @@
 import React from "react";
 import { productData } from "../../Styler/ProductExplorer/ProductExplorer";
 import { useParams } from "react-router-dom";
+import {Div} from "../../styled-components/Div/div"
 import img1 from "../../../images/img-fayw/img1.webp"
 import img2 from "../../../images/img-fayw/img2.webp"
 import img3 from "../../../images/img-fayw/img3.webp"
@@ -19,7 +20,7 @@ const ItemExplorerFayw = () => {
                     <div className="img-item-5">
                         <img src={item.image}/>
                     </div>
-                    <div className="factor-item5">
+                    <Div height="1250px" marginbot="-800px">
                         <div className="div_main__factor4">
                             <div className="div-capsules">
                                 <h3>
@@ -85,7 +86,7 @@ const ItemExplorerFayw = () => {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </Div>
                 </div>
                 <div className="title-item-5">
                     <div>

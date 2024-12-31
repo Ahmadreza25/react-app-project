@@ -1,6 +1,7 @@
 import React from "react";
 import {DataCoffeeEquipment} from "../../../data/DataCoffeeEquipment"
 import { useParams } from "react-router-dom";
+import {Div} from "../../styled-components/Div/div"
 import img1 from "../../../images/img-items-r/img-3.webp"
 import img2 from "../../../images/img-items-r/img-4.webp"
 import "./ItemCoffeeEquipmentFor.css"
@@ -16,7 +17,7 @@ const ItemCoffeeEquipmentFor = () => {
                     <div className="img_item_for">
                         <img src={item.img}/>
                     </div>
-                    <div className="factor_item_for">
+                    <Div height="900px" marginbot="-450px">
                         <div className="main_factor-itemfor">
                             <div className="div-capsules">
                                 <h2>
@@ -65,7 +66,7 @@ const ItemCoffeeEquipmentFor = () => {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </Div>
                 </div>
                 <div className="title-item_for">
                     <div>

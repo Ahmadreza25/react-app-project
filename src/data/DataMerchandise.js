@@ -2,10 +2,10 @@ import img1 from "../images/img-merchandise/img1.png"
 import img2 from "../images/img-merchandise/img2.png"
 import img3 from "../images/img-merchandise/img3.png"
 import img4 from "../images/img-merchandise/img4.png"
-import img5 from "../images/img-merchandise/img6.png"
-import img6 from "../images/img-merchandise/img7.png"
-import img7 from "../images/img-merchandise/img8.png"
-import img8 from "../images/img-merchandise/img14.png"
+import img5 from "../images/img-merchandise/img5.png"
+import img6 from "../images/img-merchandise/img6.png"
+import img7 from "../images/img-merchandise/img7.png"
+import img8 from "../images/img-merchandise/img8.png"
 
 
 
@@ -66,10 +66,5 @@ export const DataMerchandise = [
         price:"$50.00",
         title:"Campos x In The Roundhouse Coasters - Set Of 4",
         explanations: "Take the hassle out of choosing a gift by sending a Campos Gift Card.",
-    },
-    {
-        id:9,
-        title:"Brew Guides for at Home",
-        explanations:"Home Coffee Brew Guides",
     },
 ]

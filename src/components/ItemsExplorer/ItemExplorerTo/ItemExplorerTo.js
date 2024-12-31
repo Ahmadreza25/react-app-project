@@ -1,6 +1,7 @@
 import React from "react";
 import { productData } from "../../Styler/ProductExplorer/ProductExplorer";
 import { useParams } from "react-router-dom";
+import {Div} from "../../styled-components/Div/div"
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
 import img1 from "../../../images/img-to/img1.webp"
@@ -18,7 +19,7 @@ const ItemExplorerTo = () => {
                     <div className="img-item-2">
                         <img src={item.image}/>
                     </div>
-                    <div className="factor-item2">
+                    <Div height="900px" marginbot="-450px">
                         <div className="div_main__factor2">
                             <div className="div-capsules">
                                 <h3>
@@ -83,7 +84,7 @@ const ItemExplorerTo = () => {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </Div>
                 </div>
                 <div className="title-item-2">
                     <div>

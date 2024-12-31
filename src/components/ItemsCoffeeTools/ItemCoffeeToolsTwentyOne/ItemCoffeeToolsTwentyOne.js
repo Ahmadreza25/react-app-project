@@ -1,6 +1,7 @@
 import React from 'react'
 import {DataCoffeetools} from "../../../data/DataCoffeetools"
 import { useParams } from "react-router-dom";
+import {Div} from "../../styled-components/Div/div"
 import "./ItemCoffeeToolsTwentyOne.css"
 
 
@@ -15,7 +16,7 @@ const ItemCoffeeToolsTwentyOne = () => {
                     <div className="img_item_icttwenty1">
                         <img src={item.img}/>
                     </div>
-                    <div className="factor_item_ict-twenty1">
+                    <Div height="650px" marginbot="-200px">
                         <div className="main_factor-item-twenty1">
                             <div className="div-capsules">
                                 <h2>
@@ -46,7 +47,7 @@ const ItemCoffeeToolsTwentyOne = () => {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </Div>
                 </div>
                 <div className="title-item_ictone">
                     <div>

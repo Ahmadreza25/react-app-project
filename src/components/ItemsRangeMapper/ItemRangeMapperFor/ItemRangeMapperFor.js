@@ -1,6 +1,7 @@
 import React from "react";
 import { DataRangeMapper } from "../../../data/DataRangeMapper";
 import { useParams } from "react-router-dom";
+import {Div} from "../../styled-components/Div/div"
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
 import "./ItemRangeMapperFor.css"
@@ -16,7 +17,7 @@ const ItemRangeMapperFor = () => {
                     <div className="img-item-for">
                         <img src={item.image}/>
                     </div>
-                    <div className="factor-item-4">
+                    <Div height="800px" marginbot="-350px">
                         <div className="div-main-factor4">
                             <div className="div-capsules">
                                 <h2>
@@ -81,7 +82,7 @@ const ItemRangeMapperFor = () => {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </Div>
                 </div>
                 <div className="title-item-for">
                     <div>

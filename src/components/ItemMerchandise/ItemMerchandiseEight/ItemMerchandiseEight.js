@@ -1,6 +1,7 @@
 import React from "react";
 import { DataMerchandise } from "../../../data/DataMerchandise";
 import { useParams } from "react-router-dom";
+import {Div} from "../../styled-components/Div/div"
 import img1 from "../../../images/img-Merchandise-i/img-3.jpg"
 import img2 from "../../../images/img-Merchandise-i/img-4.jpg"
 import img3 from "../../../images/img-Merchandise-i/img-5.jpg"
@@ -17,7 +18,7 @@ const ItemMerchandiseEight = () => {
                     <div className="img-item-imw8">
                         <img src={item.img}/>
                     </div>
-                    <div className="factor-item-imw8">
+                    <Div height="800px" marginbot="-350px">
                         <div className="div_main_imw_factor8">
                             <div className="div-capsules">
                                 <h2>
@@ -53,7 +54,7 @@ const ItemMerchandiseEight = () => {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </Div>
                 </div>
                 <div className="title-item-imw1">
                     <div>

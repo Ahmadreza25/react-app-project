@@ -2,6 +2,7 @@ import React from "react";
 import "./ItemMerchandiseWon.css"
 import { DataMerchandise } from "../../../data/DataMerchandise";
 import { useParams } from "react-router-dom";
+import {Div} from "../../styled-components/Div/div"
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
 import img1 from "../../../images/img-Merchandise-i/img-1.webp"
@@ -17,7 +18,7 @@ const ItemMerchandiseWon = () => {
                     <div className="img-item-imw1">
                         <img src={item.img}/>
                     </div>
-                    <div className="factor-item-imw1">
+                    <Div height="900px" marginbot="-450px">
                         <div className="div_main_imw_factor1">
                             <div className="div-capsules">
                                 <h2>
@@ -82,7 +83,7 @@ const ItemMerchandiseWon = () => {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </Div>
                 </div>
                 <div className="title-item-imw1">
                     <div>

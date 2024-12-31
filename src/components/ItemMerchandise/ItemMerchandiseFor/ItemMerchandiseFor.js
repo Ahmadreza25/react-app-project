@@ -1,6 +1,7 @@
 import React from "react";
 import { DataMerchandise } from "../../../data/DataMerchandise";
 import { useParams } from "react-router-dom";
+import {Div} from "../../styled-components/Div/div"
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
 import img1 from "../../../images/img-items-r/img-3.webp"
@@ -17,7 +18,7 @@ const ItemMerchandiseFor = () => {
                     <div className="img-item-imw4">
                         <img src={item.img}/>
                     </div>
-                    <div className="factor-item-imw4">
+                    <Div height="900px" marginbot="-550px">
                         <div className="div_main_imw_factor4">
                             <div className="div-capsules">
                                 <h2>
@@ -82,7 +83,7 @@ const ItemMerchandiseFor = () => {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </Div>
                 </div>
                 <div className="title-item-1">
                     <div>

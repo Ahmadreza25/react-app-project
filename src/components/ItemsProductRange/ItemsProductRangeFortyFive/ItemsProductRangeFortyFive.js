@@ -1,10 +1,11 @@
 import React from 'react'
 import { DataProductRange } from '../../../data/DataProductRange';
 import { useParams } from 'react-router-dom';
+import { Div } from '../../styled-components/Div/div';
 import "./ItemsProductRangeFortyFive.css"
 
 const ItemsProductRangeFortyFive = () => {
-  const {id = 54} = useParams()
+  const {id = 45} = useParams()
   const item = DataProductRange.find(p => p.id === parseInt(id))
   return (
     <div>
@@ -13,7 +14,7 @@ const ItemsProductRangeFortyFive = () => {
                     <div className="img-item-fortytwo-ipr">
                         <img src={item.img}/>
                     </div>
-                    <div className="factor-item-ipr42">
+                    <Div height="650px" marginbot="-200px">
                         <div className="div-main-factor-ipr42">
                             <div className="div-capsules">
                                 <h2>
@@ -48,7 +49,7 @@ const ItemsProductRangeFortyFive = () => {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </Div>
                 </div>
                 <div className="title-item-won">
                   <div>

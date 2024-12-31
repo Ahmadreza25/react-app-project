@@ -1,12 +1,13 @@
 import React from 'react'
 import { DataProductRange } from '../../../data/DataProductRange'
 import { useParams } from 'react-router-dom';
+import { Div } from '../../styled-components/Div/div';
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
 import "./ItemsProductRangeThirteen.css"
 
 const ItemsProductRangeThirteen = () => {
-    const {id = 16} = useParams()
+    const {id = 13} = useParams()
     const item = DataProductRange.find(p => p.id === parseInt(id))
   return (
     <div>
@@ -15,7 +16,7 @@ const ItemsProductRangeThirteen = () => {
                     <div className="img-item-thirteen-ipr">
                         <img src={item.img}/>
                     </div>
-                    <div className="factor-item-ipr13">
+                    <Div  height="900px" marginbot="-450px">
                         <div className="div-main-factor-ipr13">
                             <div className="div-capsules">
                                 <h2>
@@ -80,7 +81,7 @@ const ItemsProductRangeThirteen = () => {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </Div>
                 </div>
                 <div className="title-item-won">
                     <div>

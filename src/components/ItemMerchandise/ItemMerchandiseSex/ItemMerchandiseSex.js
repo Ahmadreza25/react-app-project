@@ -1,6 +1,7 @@
 import React from "react";
 import { DataMerchandise } from "../../../data/DataMerchandise";
 import { useParams } from "react-router-dom";
+import {Div} from "../../styled-components/Div/div"
 import "./ItemMerchandiseSex.css"
 
 
@@ -14,7 +15,7 @@ const ItemMerchandiseSex = () => {
                     <div className="img-item-imw6">
                         <img src={item.img}/>
                     </div>
-                    <div className="factor-item-imw6">
+                    <Div height="900px" marginbot="-450px">
                         <div className="div_main_imw_factor6">
                             <div className="div-capsules">
                                 <h2>
@@ -58,7 +59,7 @@ const ItemMerchandiseSex = () => {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </Div>
                 </div>
                 <div className="title-item-imw1">
                     <div>

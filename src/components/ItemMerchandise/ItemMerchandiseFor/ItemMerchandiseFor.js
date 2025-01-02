@@ -1,7 +1,7 @@
 import React from "react";
 import { DataMerchandise } from "../../../data/DataMerchandise";
 import { useParams } from "react-router-dom";
-import {Div} from "../../styled-components/Div/div"
+import {Div , DivBackground} from "../../styled-components/Div/div"
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
 import img1 from "../../../images/img-items-r/img-3.webp"
@@ -14,7 +14,7 @@ const ItemMerchandiseFor = () => {
     return(
         <div>
             <div className="div_item__for">
-                <div className="div-main_imw_item4">
+                <DivBackground  Background="#0fccd2">
                     <div className="img-item-imw4">
                         <img src={item.img}/>
                     </div>
@@ -84,7 +84,7 @@ const ItemMerchandiseFor = () => {
                             </div>
                         </div>
                     </Div>
-                </div>
+                </DivBackground>
                 <div className="title-item-1">
                     <div>
                         <p>Bundle includes one 250g Airscape Canister and one 250g bag of our most popular coffee, the Superior blend.</p>

@@ -1,7 +1,7 @@
 import React from "react";
 import {DataCoffeeEquipment} from "../../../data/DataCoffeeEquipment"
 import { useParams } from "react-router-dom";
-import { Div } from "../../styled-components/Div/div";
+import { Div , DivBackground } from "../../styled-components/Div/div";
 import img1 from "../../../images/img-items-r/img-2.jpg"
 import "./ItemCoffeeEquipmentwon.css"
 
@@ -14,7 +14,7 @@ const ItemCoffeeEquipmentWon = () => {
     return(
         <div>
             <div className="div-item1">
-                <div className="div__main__item1">
+                <DivBackground Background="#898f4b">
                     <div className="img_item_won">
                         <img src={item.img}/>
                     </div>
@@ -54,7 +54,7 @@ const ItemCoffeeEquipmentWon = () => {
                             </div>
                         </div>
                     </Div>
-                </div>
+                </DivBackground>
                 <div className="title-item_won">
                     <div>
                         <h2>About the Campos Coffee Scales</h2>

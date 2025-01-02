@@ -5,14 +5,6 @@
     margin-left: 80px;
     margin-top: 40px;
 }
-.div-main-item-ipr1{
-    width: 100%;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #898f4b;
-}
 .img-item-one-ipr img{
     width: 550px;
     height: 550px;

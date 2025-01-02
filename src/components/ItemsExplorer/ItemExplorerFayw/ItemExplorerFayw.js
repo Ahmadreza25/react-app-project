@@ -1,7 +1,7 @@
 import React from "react";
 import { productData } from "../../Styler/ProductExplorer/ProductExplorer";
 import { useParams } from "react-router-dom";
-import {Div} from "../../styled-components/Div/div"
+import {Div , DivBackground} from "../../styled-components/Div/div"
 import img1 from "../../../images/img-fayw/img1.webp"
 import img2 from "../../../images/img-fayw/img2.webp"
 import img3 from "../../../images/img-fayw/img3.webp"
@@ -16,7 +16,7 @@ const ItemExplorerFayw = () => {
     return(
         <div>
             <div className="div__item_fayw">
-                <div className="div-main__item5">
+                <DivBackground Background="hsl(65, 31%, 43%)">
                     <div className="img-item-5">
                         <img src={item.image}/>
                     </div>
@@ -87,7 +87,7 @@ const ItemExplorerFayw = () => {
                             </div>
                         </div>
                     </Div>
-                </div>
+                </DivBackground>
                 <div className="title-item-5">
                     <div>
                         <h2>ABOUT OUR COFFFEE CAPSULES SUBSCRIPTION </h2>

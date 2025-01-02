@@ -1,7 +1,7 @@
 import React from "react";
 import {DataCoffeeEquipment} from "../../../data/DataCoffeeEquipment"
 import { useParams } from "react-router-dom";
-import {Div} from "../../styled-components/Div/div"
+import {Div , DivBackground} from "../../styled-components/Div/div"
 import img1 from "../../../images/img-items-r/img-3.webp"
 import img2 from "../../../images/img-items-r/img-4.webp"
 import "./ItemCoffeeEquipmentTre.css"
@@ -13,7 +13,7 @@ const ItemCoffeeEquipmentTre = () => {
     return(
         <div>
             <div className="div-item3">
-                <div className="div__main__item3">
+                <DivBackground Background="#898f4b">
                     <div className="img_item_tre">
                         <img src={item.img}/>
                     </div>
@@ -51,7 +51,7 @@ const ItemCoffeeEquipmentTre = () => {
                             </div>
                         </div>
                     </Div>
-                </div>
+                </DivBackground>
                 <div className="title-item_tre">
                     <div>
                         <h2>ABOUT THE AIRSCAPE CANISTER 1kg</h2>

@@ -1,7 +1,7 @@
 import React from "react";
 import { productData } from "../../Styler/ProductExplorer/ProductExplorer";
 import { useParams } from "react-router-dom";
-import {Div} from "../../styled-components/Div/div"
+import {Div , DivBackground} from "../../styled-components/Div/div"
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
 import img1 from "../../../images/img-won/img1.webp"
@@ -15,7 +15,7 @@ const ItemExplorerWon = () => {
     return(
         <div>
             <div className="div_item__won">
-                <div className="div-main__item1">
+                <DivBackground Background="#898f4b">
                     <div className="img-item-1">
                         <img src={item.image}/>
                     </div>
@@ -85,7 +85,7 @@ const ItemExplorerWon = () => {
                             </div>
                         </div>
                     </Div>
-                </div>
+                </DivBackground>
                 <div className="title-item-1">
                     <div>
                         <h2>ABOUT CAMPOS CAPSULES </h2>

@@ -2,7 +2,7 @@ import React from "react";
 import "./ItemMerchandiseWon.css"
 import { DataMerchandise } from "../../../data/DataMerchandise";
 import { useParams } from "react-router-dom";
-import {Div} from "../../styled-components/Div/div"
+import {Div , DivBackground} from "../../styled-components/Div/div"
 import icon1 from "../../../images/subscribenow-images/icon1.png"
 import icon2 from "../../../images/subscribenow-images/icon2.png"
 import img1 from "../../../images/img-Merchandise-i/img-1.webp"
@@ -14,7 +14,7 @@ const ItemMerchandiseWon = () => {
     return(
         <div>
             <div className="div_item_imw_won">
-                <div className="div-main_imw_item1">
+                <DivBackground Background="#a7165f">
                     <div className="img-item-imw1">
                         <img src={item.img}/>
                     </div>
@@ -84,7 +84,7 @@ const ItemMerchandiseWon = () => {
                             </div>
                         </div>
                     </Div>
-                </div>
+                </DivBackground>
                 <div className="title-item-imw1">
                     <div>
                         <p>

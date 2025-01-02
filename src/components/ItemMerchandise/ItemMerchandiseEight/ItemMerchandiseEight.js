@@ -1,7 +1,7 @@
 import React from "react";
 import { DataMerchandise } from "../../../data/DataMerchandise";
 import { useParams } from "react-router-dom";
-import {Div} from "../../styled-components/Div/div"
+import {Div , DivBackground} from "../../styled-components/Div/div"
 import img1 from "../../../images/img-Merchandise-i/img-3.jpg"
 import img2 from "../../../images/img-Merchandise-i/img-4.jpg"
 import img3 from "../../../images/img-Merchandise-i/img-5.jpg"
@@ -14,7 +14,7 @@ const ItemMerchandiseEight = () => {
     return(
         <div>
             <div className="div_item_imw_eight">
-                <div className="div-main_imw_item8">
+                <DivBackground  Background="#898f4b">
                     <div className="img-item-imw8">
                         <img src={item.img}/>
                     </div>
@@ -55,7 +55,7 @@ const ItemMerchandiseEight = () => {
                             </div>
                         </div>
                     </Div>
-                </div>
+                </DivBackground>
                 <div className="title-item-imw1">
                     <div>
                         <p>

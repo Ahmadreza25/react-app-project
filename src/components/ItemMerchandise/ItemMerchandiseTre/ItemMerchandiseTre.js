@@ -1,7 +1,7 @@
 import React from "react";
 import { DataMerchandise } from "../../../data/DataMerchandise";
 import { useParams } from "react-router-dom";
-import {Div} from "../../styled-components/Div/div"
+import {Div , DivBackground} from "../../styled-components/Div/div"
 import img1 from "../../../images/img-items-r/img-3.webp"
 import img2 from "../../../images/img-items-r/img-4.webp"
 import "./ItemMerchandiseTre.css"
@@ -13,7 +13,7 @@ const ItemMerchandiseTre = () => {
     return(
         <div>
             <div className="div_item_imw_tre">
-                <div className="div-main_imw_item3">
+                <DivBackground Background="#163bd0">
                     <div className="img-item-imw3">
                         <img src={item.img}/>
                     </div>
@@ -67,7 +67,7 @@ const ItemMerchandiseTre = () => {
                             </div>
                         </div>
                     </Div>
-                </div>
+                </DivBackground>
                 <div className="title-item-1">
                 <p>Bundle includes one 500g Airscape Canister and one 500g bag of our most popular coffee, the Superior blend.</p>
                     <div>

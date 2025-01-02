@@ -1,7 +1,7 @@
 import React from 'react'
 import { DataProductRange } from '../../../data/DataProductRange';
 import { useParams } from 'react-router-dom';
-import { Div } from '../../styled-components/Div/div';
+import { Div , DivBackground } from '../../styled-components/Div/div';
 import "./ItemsProductRangeFiftySeven.css"
 
 const ItemsProductRangeFiftySeven = () => {
@@ -10,7 +10,7 @@ const ItemsProductRangeFiftySeven = () => {
   return (
     <div>
         <div className="div-item-ipr54">
-                <div className="div-main-item-ipr54">
+                <DivBackground Background="#898f4b">
                     <div className="img-item-fiftyfour-ipr">
                         <img src={item.img}/>
                     </div>
@@ -50,7 +50,7 @@ const ItemsProductRangeFiftySeven = () => {
                             </div>
                         </div>
                     </Div>
-                </div>
+                </DivBackground>
                 <div className="title-item-won">
                   <div>
                     <h2>THE STORY OF THIS COFFEE</h2>

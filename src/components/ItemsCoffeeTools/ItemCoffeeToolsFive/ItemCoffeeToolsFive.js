@@ -1,7 +1,7 @@
 import React from 'react'
 import {DataCoffeetools} from "../../../data/DataCoffeetools"
 import { useParams } from "react-router-dom";
-import {Div} from "../../styled-components/Div/div"
+import {Div , DivBackground} from "../../styled-components/Div/div"
 import img1 from "../../../images/img-items-r/img-2.jpg"
 import "./ItemCoffeeToolsFive.css"
 
@@ -13,7 +13,7 @@ const ItemCoffeeToolsFive = () => {
   return (
     <div>
         <div className="div-item-ict5">
-                <div className="div__main_ict_item5">
+                <DivBackground Background="#898f4b">
                     <div className="img_item_ictfive">
                         <img src={item.img}/>
                     </div>
@@ -49,7 +49,7 @@ const ItemCoffeeToolsFive = () => {
                             </div>
                         </div>
                     </Div>
-                </div>
+                </DivBackground>
                 <div className="title-item_ictone">
                   <div>
                       <div>

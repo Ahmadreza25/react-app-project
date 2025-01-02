@@ -1,7 +1,7 @@
 import React from "react";
 import {DataCoffeeEquipment} from "../../../data/DataCoffeeEquipment"
 import { useParams } from "react-router-dom";
-import {Div} from "../../styled-components/Div/div"
+import {Div , DivBackground} from "../../styled-components/Div/div"
 import img1 from "../../../images/img-items-r/img-3.webp"
 import img2 from "../../../images/img-items-r/img-4.webp"
 import "./ItemCoffeeEquipmentFor.css"
@@ -13,7 +13,7 @@ const ItemCoffeeEquipmentFor = () => {
     return(
         <div>
             <div className="div-item4">
-                <div className="div__main__item4">
+                <DivBackground Background="#898f4b">
                     <div className="img_item_for">
                         <img src={item.img}/>
                     </div>
@@ -67,7 +67,7 @@ const ItemCoffeeEquipmentFor = () => {
                             </div>
                         </div>
                     </Div>
-                </div>
+                </DivBackground>
                 <div className="title-item_for">
                     <div>
                         <p>Bundle includes one 1kg Airscape Canister and a 1kg bag of our most popular coffee, the Superior blend.</p>

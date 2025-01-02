@@ -10,3 +10,14 @@ box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 border-radius: 15px;
 margin-bottom: ${(props) => props.marginbot};
 `;
+
+
+export const DivBackground = styled.div
+`
+width: 100%;
+height: 600px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: ${(props) => props.Background}
+`;

@@ -1,25 +1,9 @@
 .div-item-ipr-41{
     padding-top: 65px;
 }
-.factor-item-ipr41{
-    width: 500px;
-    height: 700px;
-    background-color:#ffffff;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 15px;
-    margin-bottom: -350px;
-}
 .div-main-factor-ipr41{
     margin-left: 80px;
     margin-top: 40px;
-}
-.div-main-item-ipr41{
-    width: 100%;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #898f4b;
 }
 .img-item-fortyone-ipr img{
     width: 550px;

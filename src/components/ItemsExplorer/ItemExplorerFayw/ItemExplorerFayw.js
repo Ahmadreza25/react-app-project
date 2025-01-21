@@ -1,7 +1,8 @@
 import React from "react";
 import { productData } from "../../Styler/ProductExplorer/ProductExplorer";
 import { useParams } from "react-router-dom";
-import {Div , DivBackground} from "../../styled-components/Div/div"
+import {Div , DivBackground , DivBtn} from "../../styled-components/Div/div";
+import {ButtonItem} from "../../styled-components/Button/Button"
 import img1 from "../../../images/img-fayw/img1.webp"
 import img2 from "../../../images/img-fayw/img2.webp"
 import img3 from "../../../images/img-fayw/img3.webp"
@@ -79,12 +80,12 @@ const ItemExplorerFayw = () => {
                                     <b>-</b>
                                 </div>
                             </div>
-                            <div className="btn-factor">
-                                <button>
+                            <DivBtn>
+                                <ButtonItem>
                                     Select Capsule pack size
                                     Select Capsules, Capsule pack size & Subscription Length
-                                </button>
-                            </div>
+                                </ButtonItem>
+                            </DivBtn>
                         </div>
                     </Div>
                 </DivBackground>

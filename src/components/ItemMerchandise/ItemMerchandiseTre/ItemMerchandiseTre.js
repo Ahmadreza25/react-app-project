@@ -1,7 +1,8 @@
 import React from "react";
 import { DataMerchandise } from "../../../data/DataMerchandise";
 import { useParams } from "react-router-dom";
-import {Div , DivBackground} from "../../styled-components/Div/div"
+import {Div , DivBackground , DivBtn} from "../../styled-components/Div/div";
+import {ButtonItem} from "../../styled-components/Button/Button"
 import img1 from "../../../images/img-items-r/img-3.webp"
 import img2 from "../../../images/img-items-r/img-4.webp"
 import "./ItemMerchandiseTre.css"
@@ -60,11 +61,11 @@ const ItemMerchandiseTre = () => {
                                 <p>Join the waitlist to be emailed when this product becomes available</p>
                                 <input type="text" placeholder="Email Addres"/>
                             </div>
-                            <div className="btn-factor">
-                                <button>
+                            <DivBtn>
+                                <ButtonItem>
                                     Select Capsule pack size
-                                </button>
-                            </div>
+                                </ButtonItem>
+                            </DivBtn>
                         </div>
                     </Div>
                 </DivBackground>

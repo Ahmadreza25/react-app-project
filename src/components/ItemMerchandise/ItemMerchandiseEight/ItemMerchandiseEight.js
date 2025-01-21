@@ -1,7 +1,8 @@
 import React from "react";
 import { DataMerchandise } from "../../../data/DataMerchandise";
 import { useParams } from "react-router-dom";
-import {Div , DivBackground} from "../../styled-components/Div/div"
+import {Div , DivBackground , DivBtn} from "../../styled-components/Div/div";
+import {ButtonItem} from "../../styled-components/Button/Button"
 import img1 from "../../../images/img-Merchandise-i/img-3.jpg"
 import img2 from "../../../images/img-Merchandise-i/img-4.jpg"
 import img3 from "../../../images/img-Merchandise-i/img-5.jpg"
@@ -48,11 +49,11 @@ const ItemMerchandiseEight = () => {
                                     <b>-</b>
                                 </div>
                             </div>
-                            <div className="btn-factor">
-                                <button>
+                            <DivBtn>
+                                <ButtonItem>
                                     Select Capsule pack size
-                                </button>
-                            </div>
+                                </ButtonItem>
+                            </DivBtn>
                         </div>
                     </Div>
                 </DivBackground>

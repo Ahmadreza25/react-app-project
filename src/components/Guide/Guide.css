@@ -40,7 +40,8 @@
     margin: 30px;
     border-radius: 15px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    transition: margin-top 0.5s;
+    transition: margin-top 0.5s ,box-shadow 0.5s ;
+    background-color: #fff;
 }
 .guides:hover{
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
@@ -59,11 +60,82 @@
     margin-top: 20px;
 
 }
-
 .div-linr-2{
     width: 30px;
     height: 3px;
     background-color: rgb(88, 131, 7);
     margin-top: 10px;
     margin-left: 30px;
+}
+@media(max-width:480px){
+    .div-guides{
+        margin-right: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .guides{
+        width: 350px;
+        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(225, 225, 225);
+    }
+    .guides:hover{
+        margin-top: 30px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
+    }
+    .div-title-guides{
+        margin-top: -100px;
+    }
+    .div-line{
+        width:30px ;
+        height:2px ;
+    }
+    .div-title-guides h3{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .div-title-guides h1{
+        font-size: 15px;
+        margin: 2px;
+    }
+    .img-guides{
+        width: 170px;
+        border-radius: 0px;
+        margin-left: 20px;
+    }
+    .title-guides{
+        font-size: 12px;
+    }
+}
+@media(min-width:481px) and (max-width:768px){
+    .guides{
+        width: 200px;
+        height: 250px;
+        margin: 10px;
+    }
+    .img-guides{
+        width: 200px;
+    }
+    .title-guides{
+        font-size: 15px;
+    }
+    .div-main-guides{
+        margin-top: 100px;
+    }
+    .div-title-guides h3{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .div-title-guides h1{
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .div-line{
+        width: 50px;
+        height: 3px;
+    }
 }

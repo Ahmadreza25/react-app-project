@@ -243,3 +243,129 @@
     margin-left: 30px;
     margin-top: 10px;
 }
+@media(max-width:480px){
+    .filters-header__options{
+        width: 400px;
+        height: 50px;
+    }
+    .filter-button{
+        width: 100px;
+        height: 30px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+    .filter-button img{
+        width: 20px;
+        margin-left: -25px;
+    }
+    .filters-header__options b{
+        font-size: 12px;
+    }
+    .filters-header__options p{
+        font-size: 12px;
+    }
+    .sotr__filters img{
+        width: 15px;
+    }
+    .filters-header__info{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .filters-header__sort{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sotr__filters b {
+        margin-right: 0px;
+    }
+    .products-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column ;
+    }
+    .main-products-list{
+        padding-top: 50px;
+    }
+    .product-item{
+        width: 250px;
+        height: 300px;
+    }
+    .product-item:hover{
+        margin-top: 7px;
+    }
+    .product-image img{
+        width: 130px;
+        height: 130px;
+    }
+    .product-image{
+        width: 250px;
+        height: 130px;
+    }
+    .product-details b{
+        font-size: 10px;
+    }
+    .product-details h4{
+        font-size: 15px;
+    }
+    .product-details p{
+        font-size:10px ;
+    }
+    .products-list{
+        padding: 0px;
+    }
+}
+@media(min-width:481px) and (max-width:768px) {
+    .filters-header__options{
+        width: 600px;
+        height: 70px;
+    }
+    .filter-button{
+        width: 130px;
+        height: 40px;
+        border-radius: 3px;
+        font-size: 13px;
+    }
+    .filter-button img{
+        width: 20px;
+        margin-left: -15px;
+    }
+    .filters-header__options b{
+        font-size: 13px;
+    }
+    .filters-header__options p{
+        font-size: 13px;
+    }
+    .sotr__filters b {
+        margin-right: 0px;
+    }
+    .product-item{
+        width: 250px;
+        height: 300px;
+    }
+    .product-item:hover{
+        margin-top: 7px;
+    }
+    .product-image img{
+        width: 130px;
+        height: 130px;
+    }
+    .product-image{
+        width: 250px;
+        height: 130px;
+    }
+    .product-details b{
+        font-size: 10px;
+    }
+    .product-details h4{
+        font-size: 15px;
+    }
+    .product-details p{
+        font-size:10px ;
+    }
+    .products-list{
+        padding: 0px;
+    }
+}

@@ -1,7 +1,8 @@
 import React from 'react'
 import {DataCoffeetools} from "../../../data/DataCoffeetools"
 import { useParams } from "react-router-dom";
-import {Div , DivBackground} from "../../styled-components/Div/div"
+import {Div , DivBackground , DivBtn} from "../../styled-components/Div/div";
+import {ButtonItem} from "../../styled-components/Button/Button";
 import "./ItemCoffeeToolsSexTeen.css"
 
 
@@ -42,11 +43,11 @@ const ItemCoffeeToolsSexTeen = () => {
                                     <b>-</b>
                                 </div>
                             </div>
-                            <div className="btn-factor">
-                                <button>
+                            <DivBtn>
+                                <ButtonItem>
                                     Join add accont
-                                </button>
-                            </div>
+                                </ButtonItem>
+                            </DivBtn>
                         </div>
                     </Div>
                 </DivBackground>

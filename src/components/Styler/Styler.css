@@ -34,3 +34,41 @@
     text-decoration: none;
     color: #000;
 }
+@media(max-width:480px){
+    .title-1-h1{
+        margin-left: -100px;
+        font-size: 15px;
+        width: 300px;
+    }
+    .title-2-h2{
+        margin-left: -100px;
+        font-size: 10px;
+        width: 250px;
+    }
+    .title-3{
+        margin-left: -100px;
+        font-size: 12px;
+        width: 70px;
+    }
+    .link{
+        width: 300px;
+    }
+}
+@media(min-width:481px) and (max-width:768px){
+    .title-1-h1{
+        font-size: 20px;
+        margin-left: -50px;
+    }
+    .title-2-h2{
+        font-size: 13px;
+        width: 400px;
+        margin-left: -50px;
+    }
+    .title-3{
+        font-size: 13px;
+        width: 80px;
+        text-align: center;
+        margin-left: -50px;
+        margin-top: 40px;
+    }
+}

@@ -1,7 +1,8 @@
 import React from 'react'
 import { DataProductRange } from '../../../data/DataProductRange';
 import { useParams } from 'react-router-dom';
-import { Div , DivBackground } from '../../styled-components/Div/div';
+import { Div , DivBackground , DivBtn } from '../../styled-components/Div/div';
+import {ButtonItem} from "../../styled-components/Button/Button";
 import "./ItemsProductRangeFiftyThree.css"
 
 const ItemsProductRangeFiftyThree = () => {
@@ -43,11 +44,11 @@ const ItemsProductRangeFiftyThree = () => {
                                     <b>-</b>
                                 </div>
                             </div>
-                            <div className="btn-factor">
-                                <button>
+                            <DivBtn>
+                                <ButtonItem>
                                     Select Capsule pack size
-                                </button>
-                            </div>
+                                </ButtonItem>
+                            </DivBtn>
                         </div>
                     </Div>
                 </DivBackground>

@@ -80,3 +80,65 @@
     margin-top: 30px;
     margin-left: 140px;
 }
+@media(max-width:480px){
+    .div-main-footer{
+        height: 500px;
+        width: 100%;
+        margin-top: 80px;
+    }
+    .div-btn-footer{
+        display: none;
+    }
+    .title-footer{
+        display: none;
+    }
+    .p-footer{
+        display: none;
+    }
+    .div-btn-footer1{
+        width: 300px;
+        margin: 0px;
+    }
+    .div-btn-footer1 h3{
+        font-size: 15px;
+    }
+    .div-input button{
+        width: 255px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .div-input input{
+        width: 250px;
+        height: 20px;
+    }
+    .div-footer p{
+        font-size: 10px;
+    }
+}
+@media(min-width:481px) and (max-width:768px){
+    .div-main-footer{
+        width: 100%;
+    }
+    .div-btn-footer{
+        display: none;
+    }
+    .title-footer{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .p-footer{
+        width: 400px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .div-input input{
+        width: 200px;
+        height: 30px;
+    } 
+    .div-input button{
+        width: 205px;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 800;
+    }
+}

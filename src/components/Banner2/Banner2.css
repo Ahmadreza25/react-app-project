@@ -21,12 +21,12 @@
     box-shadow: 0px 2px 8px rgba(74, 73, 73, 0.3);
     border-radius: 10px;
     transition: box-shadow 0.6s ;
+    background-color: #fff;
 }
 .banner-1:hover{
     box-shadow: 0px 0px 10px rgba(73, 72, 72, 0.5);
 
 }
-
 .banner-1 img{
     width: 500px;
     height: 400px;
@@ -63,12 +63,10 @@
 
 .banner-2 h1{
     font-size: 40px;
-    font-style: bold;
     font-weight: 700;
 }
 .banner-3 h1{
     font-size: 40px;
-    font-style: bold;
     font-weight: 700;
 }
 
@@ -102,4 +100,130 @@
 .banner-1 h3:hover {
     color: rgb(129, 171, 57);
     border-color: rgb(129, 171, 57);
+}
+@media(max-width:480px){
+    .banner-1{
+        margin-top: -100px;
+        width: 340px;
+        height: 300px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: #ebebeb;
+    }
+    .banner-1 img{
+        width: 200px;
+        height: 150px;
+        border-radius: 5px 30px 5px 30px ;
+        margin-top: 30px;
+    }
+    .div-title-banner2 h1{
+        width: 100%;
+        font-size: 15px;
+
+    }
+    .div-title-banner2 h3{
+        width: 100%;
+        font-size: 12px;
+        width: 120px;
+    }
+    .div-main-banner3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+    }
+    .banner-2{
+        width: 200px;
+        margin-top: -80px;
+    }
+    .banner-3{
+        width: 200px;
+        margin-top: -300px;
+
+    }
+    .banner-2 img {
+        width: 100px;
+        height: 100px;
+    }
+    .banner-2 h1{
+        font-size: 15px;
+    }
+    .banner-2 h3{
+        font-size: 12px;
+        margin-top:0px ;
+    }
+    .banner-3 img {
+        width: 100px;
+        height: 100px;
+    }
+    .banner-3 h1{
+        font-size: 15px;
+    }
+    .banner-3 h3{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+}
+@media(min-width:481px) and (max-width:768px){
+    .banner-1{
+        width: 500px;
+        height: 250px;
+        margin-top: -50px;
+    }
+    .banner-1 img {
+        width: 250px;
+        height: 250px;
+    }
+    .div-title-banner2 h1{
+        font-size: 15px;
+    }
+    .div-title-banner2 h3{
+        font-size: 12px;
+        width: 120px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .div-main-banner3{
+        margin-top: 0px;
+    }
+    .banner-2{
+        width: 300px;
+        height: 400px;
+        margin: 10px;
+    }
+    .banner-3{
+        width: 300px;
+        height: 400px;
+        margin: 10px;
+    }
+    .banner-2 img{
+        width: 300px;
+        height: 300px;
+    }
+    .banner-2 h1{
+        font-size: 15px;
+    }
+    .banner-2 h3{
+        font-size: 12px;
+        width: 70px;
+        text-align: center;
+    }
+    .banner-3 img {
+        width: 300px;
+        height: 300px;
+    }
+    .banner-3 h1 {
+        font-size: 15px;
+    }
+    .banner-3 h3 {
+        font-size: 12px;
+        width: 70px;
+        text-align: center;
+        margin-top: 0px;
+    }
 }

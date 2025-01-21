@@ -18,3 +18,14 @@ export const Button = styled.button`
     margin-top:${(props => props.mtop)};
 `;
 
+export const ButtonItem = styled.button`
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #ffffff;
+    font-weight: 700;
+    margin-left: -80px;
+    transition: background-color 0.5s , color 0.5s ;
+`
+

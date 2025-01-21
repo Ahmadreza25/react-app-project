@@ -39,7 +39,6 @@
 .title-hiring h1{
     font-size: 35px;
     font-weight: 800;
-    font-style: bold;
     margin-top: 70px;
     margin-left: 50px;
     width: 300px;
@@ -47,7 +46,6 @@
 .title-hiring b{
     font-size: 20px;
     font-weight: 700;
-    font-style: bold;
     margin-top: 70px;
     margin-left: 50px;
     width: 110px;
@@ -65,48 +63,30 @@
     border-radius: 0px 15px 15px 0px;
 }
 .cart3{
-    margin: 10px;
+    margin-left: -50px;
+    margin-right:-50px;
 }
 .div-cart3{
     width: 300px;
-    height: 450px;
+    height: 400px;
     box-shadow: 0px 0px 3px rgba(0, 0, 0 , 0.3);
     border-radius: 15px;
     transition: box-shadow 0.5s , margin-top 0.5s;
 }
 .div-cart3:hover{
-    box-shadow: 0px 0px 6px rgba(0, 0, 0 , 0.6); 
-    margin-top: -15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0 , 0.6); 
+    margin-top: -10px;
 }
 .div-img-carts3{
     width: 100%;
     height: 200px;
     text-align: center;
-    border-radius: 15px 15px 100px 100px;
+    border-radius: 15px 15px 0px 0px;
     transition: background-color 0.8s;
 }
 .div-img-carts3:hover{
     background-color:rgb(129, 135, 71);
 }
-/* .div-img-carts3-1:hover{
-    background-color: rgb(70, 79, 61);
-    border-radius: 15px 15px 100px 100px;
-} */
-/* .div-img-carts3-2:hover{
-    background-color: rgb(70, 79, 61);
-    border-radius: 15px 15px 100px 100px;
-}
-.div-img-carts3-3:hover{
-    background-color: rgb(70, 79, 61);
-    border-radius: 15px 15px 100px 100px;}
-.div-img-carts3-4:hover{
-    background-color: rgb(70, 79, 61);
-    border-radius: 15px 15px 100px 100px;
-}
-.div-img-carts3-5:hover{
-    background-color: rgb(70, 79, 61);
-    border-radius: 15px 15px 100px 100px;
-} */
 .img-cart3{
     width: 180px;
     height: 180px;
@@ -136,4 +116,155 @@
 .link {
     text-decoration: none;
     color: #000;
+}
+
+@media(max-width:480px){
+    .div-main-carts3{
+        overflow-x: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .cart3{
+        margin: 0px;
+    }
+    .div-img-carts3{
+        height: 100%;
+        width: 125px;
+        border-radius: 10px 0px 0px 10px;
+        background-color: #898f4b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-title-cart3{
+        width: 125px;
+    }
+    .div-title-cart3 p{
+        font-size: 8px;
+    }
+    .div-title-cart3 h3{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .div-title-cart3 h5{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .div-cart3{
+        width:250px;
+        height:250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    .div-cart3:hover{
+        margin-top: 10px;
+    }
+    .img-cart3{
+        width: 100px;
+        height: 100px;
+    }
+    .div-explanation h1{
+        font-size: 17px;
+        margin-left: -130px;
+        width: 200px;
+    }
+    .div-explanation h5 {
+        margin-top: -20px;
+        font-size: 12px;
+        margin-left: -130px;
+    }
+    .div-explanation p{
+        font-size: 12px;
+        margin-left: -130px;
+        width: 105px;
+    }
+    .div-hiring{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    .title-hiring h1{
+        font-size: 15px;
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    .title-hiring b{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 100px;
+    }
+    .div-hiring img{
+        display: none;
+    }
+}
+@media(min-width:481px) and (max-width:768px){
+    .div-main-carts3{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-items: center;
+        margin:0px;
+        margin-top:0px;
+        overflow-x: unset;
+    }
+    .div-cart3{
+        width: 250px;
+        height: 300px;
+    }
+    .img-cart3{
+        width: 130px;
+        height: 130px;
+    }
+    .div-img-carts3{
+        height: 130px;
+    }
+    .div-title-cart3{
+        margin-top:-10px ;
+    }
+    .div-title-cart3 p {
+        font-size: 12px;
+    }
+    .div-title-cart3 h3{
+        font-size: 15px;
+    }
+    .div-title-cart3 h5{
+        font-size: 12px;
+    }
+    .div-explanation h1{
+        font-size: 20px;
+        margin-left: -100px;
+    }
+    .div-explanation h5{
+        width: 400px;
+        margin-left: -100px;
+        margin-top: -20px;
+    }
+    .div-explanation p {
+        font-size: 12px;
+        width: 110px;
+        text-align: center;
+        margin-left: -100px;
+    }
+    .div-hiring{
+        width: 600px;
+    }
+    .div-hiring img {
+        width: 300px;
+    }
+    .title-hiring h1 {
+        font-size: 20px;
+        margin-top: 120px;
+    }
+    .title-hiring b{
+        font-size: 12px;
+        font-weight: 900;
+    }
 }
